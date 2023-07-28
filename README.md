@@ -7,3 +7,6 @@
 | 名称      | 作者      | 版本 | 适配游戏版本 | 备注 |
 |----------|----------|----------|----------|----------|
 | [AutoHook](https://github.com/InitialDet/AutoHook)  | [Det](https://github.com/InitialDet)  | 2.4.4.1 | 6.35 | 完全汉化、部分布局修改 |
+
+## 仓库链接
+\` https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json\`
