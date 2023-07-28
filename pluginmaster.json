@@ -1,0 +1,58 @@
+[
+  {
+    "Author": "Det, AtmoOmen(本地化)",
+    "Name": "Auto Hook",
+    "Punchline": "让钓鱼没那么无聊（或者更无聊）？",
+    "Description": "你敢相信吗，它能为你捕鱼",
+    "InternalName": "AutoHook",
+    "RepoUrl": "https://github.com/InitialDet/AutoHook",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "Gathering",
+      "Fishing",
+      "采集",
+      "钓鱼",
+      "刺鱼"
+    ],
+    "DalamudApiLevel": 8,
+    "AcceptsFeedback": false,
+    "IconUrl": "https://raw.githubusercontent.com/InitialDet/AutoHook/main/AutoHook/images/icon.png",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "AssemblyVersion": "2.4.4.1",
+    "DownloadLinkInstall": "https://github.com/InitialDet/AutoHook/releases/download/2.4.4.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/InitialDet/AutoHook/releases/download/2.4.4.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/InitialDet/AutoHook/releases/download/2.4.4.1/latest.zip"
+  },
+  {
+    "Author": "Det",
+    "Name": "Minion Roulette",
+    "Punchline": "Swap between your minions every time you change zones",
+    "Description": "Make sure to enable the checkbox in the Minion Guide if you want only your favorite minions to be swapped",
+    "IconUrl": "https://raw.githubusercontent.com/InitialDet/MinionRoulette/main/MinionRoulette/images/icon.png",
+    "ImageUrls": [
+      ""
+    ],
+    "RepoUrl": "https://github.com/InitialDet/MinionRoulette",
+    "Tags": [
+      "Casual",
+      "Minion"
+    ],
+    "CategoryTags": [
+      "other"
+    ],
+    "InternalName": "MinionRoulette",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 8,
+    "LoadPriority": 0,
+    "Changelog": "",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "AssemblyVersion": "1.1.2.3",
+    "LastUpdated": 1674001897,
+    "DownloadCount": 604,
+    "DownloadLinkInstall": "https://github.com/InitialDet/MinionRoulette/releases/download/1.1.2.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/InitialDet/MinionRoulette/releases/download/1.1.2.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/InitialDet/MinionRoulette/releases/download/1.1.2.3/latest.zip"
+  }
+]
