@@ -1,4 +1,4 @@
-## MyDalamudPlugins
+## DalamudPlugins
 由 **AtmoOmen** 编写/本地化的 Dalamud 插件仓库
 
 **我并不是仓库内绝大多数插件的作者，如有任何需要，请跳转原插件仓库**
