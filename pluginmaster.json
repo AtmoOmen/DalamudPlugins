@@ -45,7 +45,7 @@
   "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/icon.png",
   "Punchline": "或许你突然就想知道你在FF14花了/赚了多少钱？",
   "Changelog": "基于原作者代码，进行了大范围的代码重构",
-  "AcceptsFeedback": false
+  "AcceptsFeedback": false,
   "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
   "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
   "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip"
