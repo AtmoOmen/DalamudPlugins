@@ -23,5 +23,31 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/AutoHook/latest.zip",
     "DownloadLinkTesting": "hhttps://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/AutoHook/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/AutoHook/latest.zip"
+  },
+  {
+  "Author": "Youri, AtmoOmen (本地化,代码重构)",
+  "Name": "FFXIV Money Tracker Remake",
+  "InternalName": "XIVMoneyTracker",
+  "AssemblyVersion": "0.0.5.4",
+  "Description": "基于原作者代码，进行了大范围的重构，增加了更多可跟踪的货币!",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "money",
+    "plugin",
+    "tracker"
+  ],
+  "DalamudApiLevel": 8,
+  "ImageUrls": [
+    "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img1.png",
+    "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img2.png",
+    "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img3.png"
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/icon.png",
+  "Punchline": "或许你突然就想知道你在FF14花了/赚了多少钱？",
+  "Changelog": "基于原作者代码，进行了大范围的代码重构",
+  "AcceptsFeedback": false
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
+  "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip"
   }
 ]
