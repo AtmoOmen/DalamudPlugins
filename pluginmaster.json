@@ -47,5 +47,30 @@
   "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
   "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
   "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip"
+  },
+  {
+    "Author": "Cadaeix, AtmoOmen(本地化)",
+    "Name": "XIVLogger",
+    "InternalName": "XIVLogger",
+    "AssemblyVersion": "1.0.4.4",
+    "Description": "从插件加载开始，保存你的聊天记录到本地文件或者剪贴板里！",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/cadaeix/XIVLogger",
+    "Tags": [
+      "xivlauncher",
+      "plugin",
+      "chat",
+      "chat log"
+    ],
+    "DalamudApiLevel": 8,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/cadaeix/XIVLogger/master/Assets/icon.png",
+    "Punchline": "保存你的聊天记录到本地文件或者剪贴板里！",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVLogger/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVLogger/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVLogger/latest.zip"
   }
 ]
