@@ -28,7 +28,7 @@
   "Author": "Youri, AtmoOmen (本地化,代码重构)",
   "Name": "FFXIV Money Tracker Remake",
   "InternalName": "XIVMoneyTracker",
-  "AssemblyVersion": "0.0.5.5",
+  "AssemblyVersion": "0.0.5.6",
   "Description": "基于原作者代码，进行了大范围的重构，增加了更多可跟踪的货币!",
   "ApplicableVersion": "any",
   "Tags": [
