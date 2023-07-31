@@ -38,9 +38,7 @@
   ],
   "DalamudApiLevel": 8,
   "ImageUrls": [
-    "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img1.png",
-    "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img2.png",
-    "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img3.png"
+    "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img1.png"
   ],
   "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/icon.png",
   "Punchline": "或许你突然就想知道你在FF14花了/赚了多少钱？",
