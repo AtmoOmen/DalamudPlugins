@@ -42,7 +42,7 @@
   ],
   "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/icon.png",
   "Punchline": "或许你突然就想知道你在FF14花了/赚了多少钱？",
-  "Changelog": "优化性能表现，更改部分表述",
+  "Changelog": "最小记录时间间隔功能回归，调整了整体布局",
   "AcceptsFeedback": false,
   "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
   "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
