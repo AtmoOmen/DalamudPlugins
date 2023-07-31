@@ -63,9 +63,6 @@
       "chat log"
     ],
     "DalamudApiLevel": 8,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/cadaeix/XIVLogger/master/Assets/icon.png",
     "Punchline": "保存你的聊天记录到本地文件或者剪贴板里！",
     "AcceptsFeedback": true,
