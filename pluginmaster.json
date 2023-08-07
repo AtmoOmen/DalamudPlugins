@@ -25,28 +25,31 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/AutoHook/latest.zip"
   },
   {
-  "Author": "Youri, AtmoOmen (本地化,代码重构)",
-  "Name": "FFXIV Money Tracker Remake",
-  "InternalName": "XIVMoneyTracker",
-  "AssemblyVersion": "0.0.5.7",
-  "Description": "基于原作者代码，进行了大范围的重构，增加了更多可跟踪的货币!",
-  "ApplicableVersion": "any",
-  "Tags": [
-    "money",
-    "plugin",
-    "tracker"
-  ],
-  "DalamudApiLevel": 8,
-  "ImageUrls": [
-    "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img1.png"
-  ],
-  "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/icon.png",
-  "Punchline": "或许你突然就想知道你在FF14花了/赚了多少钱？",
-  "Changelog": "增加了Dalamud意外崩溃时对数据的紧急保存功能，防止在下一次启动时写入错误的数据\n如果你在之前的使用中已经产生了错误的数据，请麻烦至数据文件夹手动删除错误记录的数据",
-  "AcceptsFeedback": false,
-  "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
-  "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip",
-  "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/XIVMoneyTracker/latest.zip"
+    "Author": "AtmoOmen",
+    "Name": "Currency Tracker",
+    "InternalName": "CurrencyTracker",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "追踪你的各项货币的收支记录",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
+    "Tags": [
+      "Money",
+      "Currency",
+      "Tracker",
+      "金钱",
+      "追踪器",
+      "货币"
+    ],
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img1.png"
+    ],
+    "DalamudApiLevel": 8,
+    "Changelog": "正式版发布",
+    "Punchline": "追踪你的各项货币的收支记录",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip"
   },
   {
     "Author": "Cadaeix, AtmoOmen(本地化)",
