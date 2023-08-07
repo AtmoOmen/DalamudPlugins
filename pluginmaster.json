@@ -42,7 +42,7 @@
     ],
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/icon.png",
     "ImageUrls": [
-      "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img1.png"
+      "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1.png"
     ],
     "DalamudApiLevel": 8,
     "Changelog": "正式版发布",
