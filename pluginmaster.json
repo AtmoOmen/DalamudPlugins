@@ -40,6 +40,7 @@
       "追踪器",
       "货币"
     ],
+    "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/icon.png",
     "ImageUrls": [
       "https://raw.githubusercontent.com/AtmoOmen/FFXIVMoneyTracker/master/res/images/img1.png"
     ],
