@@ -28,7 +28,7 @@
     "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.0.0.1",
+    "AssemblyVersion": "1.0.1.0",
     "Description": "追踪你的各项货币的收支记录",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
@@ -42,10 +42,11 @@
     ],
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/icon.png",
     "ImageUrls": [
-      "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1.png"
+      "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1.png",
+      "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
     ],
     "DalamudApiLevel": 8,
-    "Changelog": "正式版发布",
+    "Changelog": "增加了多语言支持(English)",
     "Punchline": "追踪你的各项货币的收支记录",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
