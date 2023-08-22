@@ -76,6 +76,26 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/BetterTargetingSystem/latest.zip"
   },
   {
+    "Author": "NightmareXIV, AtmoOmen (本地化)",
+    "Name": "Weatherman",
+    "InternalName": "Weatherman",
+    "AssemblyVersion": "2.4.0.8",
+    "Description": "完全汉化，增加了保持在指定时间段的功能\n功能：\n根据您的需求更改游戏中的时间和天气；\n全局或按区域个别进行更改；\n完全阻止不希望出现的天气。\n\n此插件仅改变视觉效果：\n与时间/天气相关的功能，如区域背景音乐、景观可用性、某些物体的状态，将保持不受影响。只有具有开放天空的区域才会受到更改的影响（尚未涵盖所有区域，但正在进行中）。",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/NightmareXIV/Weatherman",
+    "Tags": [
+      "Weather"
+    ],
+    "IconUrl": "https://raw.githubusercontent.com/Eternita-S/Weatherman/master/Weatherman/res/icon.png",
+    "DalamudApiLevel": 8,
+    "Changelog": "完全汉化，新功能追加",
+    "Punchline": "更加好用的游戏内天气时间控制系统",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/Weatherman/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/Weatherman/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/Weatherman/latest.zip"
+  },
+  {
     "Author": "Cadaeix, AtmoOmen(本地化)",
     "Name": "XIVLogger",
     "InternalName": "XIVLogger",
