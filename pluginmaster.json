@@ -28,8 +28,8 @@
     "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.1.0.0",
-    "Description": "Track your Currencies' Changes! / 追踪你的各项货币的收支记录",
+    "AssemblyVersion": "1.1.1.0",
+    "Description": "Track your Currencies' Changes!",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
     "Tags": [
@@ -46,8 +46,8 @@
       "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
     ],
     "DalamudApiLevel": 8,
-    "Changelog": "(Simplified Chinese / English)\n- 为收支记录增加了新项目 地点，现在可以记录收支记录产生时所在的地点了(可能出现不准确的数据 / 以前的数据将会被标记为未知地点)\n  Added a new field Location to transactions records, allowing you to track the location where the transaction occurred (Note: Data accuracy may vary / Existing data will be marked as unknown)\n- 从代码层面增加了完整的多语言支持\n  Implemented comprehensive multilingual support at the code level.\n- 增加了按时间筛选功能，现在可以仅显示指定时间段的收支记录了\n  Added a time filtering feature, enabling you to display transactions within a specified time range\n- 增加了副本内最小记录值功能，现在可以一定程度上避免开启副本内数据记录后大量小额数据出现了\n  Introduced a minimum recording threshold for in-duty record, reducing the occurrence of numerous small-value data entries when in-duty data tracking is enabled\n- 增加了自定义货币追踪功能，现在你可以使用 Currency Tracker 追踪任意游戏内物品/货币的变化情况了\n  Added a custom currency tracking feature, allowing you to use the Currency Tracker to monitor changes in any in-game item or currency\n- 增加了打开数据文件夹功能，现在支持多系统一键打开存储当前角色收支记录数据的文件夹了\n  Included an option to open the data folder, allowing easy access to the folder where the transactions data for the current character are stored across different operating systems.",
-    "Punchline": "Track your Currencies' Changes! / 追踪你的各项货币的收支记录",
+    "Changelog": "(English / 简体中文)\n- Modified the way transactions are displayed, which now effectively reduces the performance consumption caused by large amounts of data\n  修改了记录的显示方式，现在可以有效降低数据量过大时造成的性能消耗\n- Added a function to merge transactions of the same location by threshold value\n  新增了按临界值合并相同地点记录的功能\n- Added a function to clear exceptional transactions\n  新增了移除异常记录的功能",
+    "Punchline": "Track your Currencies' Changes!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
