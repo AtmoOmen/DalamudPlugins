@@ -28,7 +28,7 @@
     "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.1.1.0",
+    "AssemblyVersion": "1.1.1.1",
     "Description": "Track your Currencies' Changes!",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
@@ -46,7 +46,7 @@
       "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
     ],
     "DalamudApiLevel": 8,
-    "Changelog": "(English / 简体中文)\n- Modified the way transactions are displayed, which now effectively reduces the performance consumption caused by large amounts of data\n  修改了记录的显示方式，现在可以有效降低数据量过大时造成的性能消耗\n- Added a function to merge transactions of the same location by threshold value\n  新增了按临界值合并相同地点记录的功能\n- Added a function to clear exceptional transactions\n  新增了移除异常记录的功能",
+    "Changelog": "Further optimises the performance of the plugin, especially with very large amounts of data",
     "Punchline": "Track your Currencies' Changes!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
