@@ -76,6 +76,29 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/BetterTargetingSystem/latest.zip"
   },
   {
+    "Author": "ocealot, AtmoOmen(本地化)",
+    "Name": "VFXEditor",
+    "InternalName": "VFXEditor",
+    "AssemblyVersion": "1.7.5.0",
+    "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化及国服支持: AtmoOmen",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CN",
+    "Tags": [
+      "VFX",
+      "AVFX"
+    ],
+    "DalamudApiLevel": 8,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "LoadPriority": 69,
+    "Punchline": "游戏视效编辑器、查看器",
+    "Changelog": "初版翻译完成",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/VFXEditor/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/VFXEditor/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/VFXEditor/latest.zip"
+  },
+  {
     "Author": "NightmareXIV, AtmoOmen (本地化)",
     "Name": "Weatherman",
     "InternalName": "Weatherman",
