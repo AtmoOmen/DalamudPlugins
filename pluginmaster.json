@@ -28,7 +28,7 @@
     "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.1.1.1",
+    "AssemblyVersion": "1.1.1.2",
     "Description": "Track your Currencies' Changes!",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
@@ -46,7 +46,7 @@
       "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
     ],
     "DalamudApiLevel": 8,
-    "Changelog": "Further optimises the performance of the plugin, especially with very large amounts of data",
+    "Changelog": "- Add a new command /ct to open the main interface of the plugin.\n  增加一个新命令/ct，用于开启插件主界面\n- Modified the way the data is displayed in the main interface of the plugin, so that filters can now be applied properly.\n  修改了插件主界面数据显示方式，现在可以正常地应用筛选器",
     "Punchline": "Track your Currencies' Changes!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
