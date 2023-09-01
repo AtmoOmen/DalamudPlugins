@@ -28,7 +28,7 @@
     "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.1.2.0",
+    "AssemblyVersion": "1.1.2.1",
     "Description": "Track your Currencies' Changes!",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
@@ -46,7 +46,7 @@
       "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
     ],
     "DalamudApiLevel": 8,
-    "Changelog": "- Modified the UI layout and interactive logic of the main interface.\n  - Added an \"Others\" category for options, relocating the previous functions \"Export .CSV\", \"Open Data Folder,\" and \"Languages\" to this category.\n  - Enhanced the interactive logic for option categories, allowing users to expand/collapse all options within a category by clicking the category label.\n  - Revised the height calculation logic for list boxes and sub-windows displaying tables, enabling them to automatically adjust height while maintaining alignment as the window height changes.\n- Added a feature called \"Track Mode\", located under the \"Record Options\" category.\n  - \"Timer Mode\" (existing) - Users can now customize the time interval for triggering the timer.\n  - \"Chat Mode\" (new) - Automatically checks the changes in all currencies whenever new in-game messages are received, potentially leading to more accurate records under this mode.\n- Fixed a bug where the same custom currency was repeatedly added to the list box after re-enabling the plugin under certain circumstances.\n- (English only) Modified certain inaccuracies in the English localization text.",
+    "Changelog": "- Changed the logic in the Track Mode section of the code, which should now significantly improve the performance of Chat Mode.",
     "Punchline": "Track your Currencies' Changes!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
