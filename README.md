@@ -5,7 +5,7 @@
 | 名称      | 原作者      | 版本 | 适配游戏版本 | 备注 |
 |----------|----------|----------|----------|----------|
 | [AutoHook](https://github.com/InitialDet/AutoHook)  | [Det](https://github.com/InitialDet)  | 2.4.4.1 | 6.38 | 完全汉化 部分布局修改 |
-| [CurrencyTracker](https://github.com/AtmoOmen/CurrencyTracker)  | [AtmoOmen](https://github.com/AtmoOmen)  | 1.1.2.1 | 6.38 | **个人编写*** |
+| [CurrencyTracker](https://github.com/AtmoOmen/CurrencyTracker)  | [AtmoOmen](https://github.com/AtmoOmen)  | 1.1.2.2 | 6.38 | **个人编写*** |
 | [VFXEditor](https://github.com/0ceal0t/Dalamud-VFXEditor) | [ocealot](https://github.com/0ceal0t) | 1.7.5.0 | 6.38 | 完全汉化 |
 | [XIVLogger](https://github.com/cadaeix/XIVLogger)  | [Cadaeix](https://github.com/cadaeix)  | 1.0.4.4 | 6.38 | 完全汉化 部分布局修改 |
 | [BetterTargetingSystem](https://github.com/Lynesth/BetterTargetingSystem) | [Lynesh](https://github.com/Lynesth) | 0.0.7.0 | 6.38 | 完全汉化 修改部分判断逻辑 |
