@@ -28,7 +28,7 @@
     "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.2.0.0",
+    "AssemblyVersion": "1.2.1.1",
     "Description": "Track your Currencies' Changes!",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
@@ -46,7 +46,7 @@
       "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
     ],
     "DalamudApiLevel": 8,
-    "Changelog": "- Added a \"Graphs\" window, where you can browse visualized data in the form of preset models. The initial version includes four types of visual data models: \"Amount Graph\", \"Change Graph\", \"Location Graph\" and \"Location Change Graph\".\n- Made significant changes to the implementation of the multilingual functionality.\n- Modified the plugin logic for the \"Merge Records\" feature when the threshold value is 0. Now, 0 is treated as a flag to ignore the threshold value and perform the merge check directly.",
+    "Changelog": "请到插件的 GitHub 主页查看更新日志",
     "Punchline": "Track your Currencies' Changes!",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/CurrencyTracker/latest.zip",
