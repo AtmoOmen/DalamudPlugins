@@ -28,7 +28,7 @@
     "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.2.1.1",
+    "AssemblyVersion": "1.2.3.0",
     "Description": "Track your Currencies' Changes!",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
