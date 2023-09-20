@@ -28,8 +28,8 @@
     "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.2.3.0",
-    "Description": "Track your Currencies' Changes!",
+    "AssemblyVersion": "1.2.3.1",
+    "Description": "Aimed to help you track changes of various in-game currencies transactions (Gil, Seal, Tomestone, etc.).\nAlso provides features for queries, graphs, exporting data, and custom currencies tracker.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
     "Tags": [
@@ -42,8 +42,8 @@
     ],
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/icon.png",
     "ImageUrls": [
-      "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1.png",
-      "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img2.png"
+      "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img3.png",
+      "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img4.png"
     ],
     "DalamudApiLevel": 8,
     "Changelog": "请到插件的 GitHub 主页查看更新日志",
