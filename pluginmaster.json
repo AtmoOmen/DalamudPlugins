@@ -77,9 +77,9 @@
   },
   {
     "Author": "ocealot, AtmoOmen(本地化)",
-    "Name": "VFXEditor",
-    "InternalName": "VFXEditor",
-    "AssemblyVersion": "1.7.9.2",
+    "Name": "VFXEditorCN",
+    "InternalName": "VFXEditorCN",
+    "AssemblyVersion": "1.7.9.0",
     "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化及国服支持: AtmoOmen",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CN",
