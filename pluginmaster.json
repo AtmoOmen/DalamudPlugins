@@ -82,7 +82,7 @@
     "AssemblyVersion": "1.7.9.0",
     "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化及国服支持: AtmoOmen",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CN",
+    "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CNTR",
     "Tags": [
       "VFX",
       "AVFX"
@@ -92,7 +92,6 @@
     "LoadSync": false,
     "LoadPriority": 69,
     "Punchline": "游戏视效编辑器、查看器",
-    "Changelog": "6.4",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/VFXEditor/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/VFXEditor/latest.zip",
