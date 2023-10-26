@@ -12,7 +12,14 @@
 | [Weatherman](https://github.com/NightmareXIV/Weatherman) | [NightmareXIV](https://github.com/NightmareXIV) | 2.4.0.8 | 6.4 | 修改天气 | 完全汉化 增加锁定指定时间段功能 |
 | [~~XIVMoneyTrackerRemake~~](https://github.com/yschuurmans/FFXIVMoneyTracker)  | [~~Youri~~](https://github.com/yschuurmans)  | ~~0.0.5.7~~ | ~~6.35~~ |  | ~~**停止支持**~~ |
 
+## 期间限定提供插件 (国服 6.5 更新时停止提供)
+
+- Yes Already
+- AutoRetainer
+- Artisan
+
 ## 仓库链接
+
 ```
 https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 ```
