@@ -26,10 +26,33 @@
   },
   {
     "Author": "AtmoOmen",
+    "Name": "NNKicker",
+    "InternalName": "NNKicker",
+    "AssemblyVersion": "0.0.0.1",
+    "Description": "新人频道里全是吹水人，必须要正义执行!",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "Novice Network",
+      "NN",
+      "新频",
+      "新人频道"
+    ],
+    "DalamudApiLevel": 8,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "LoadPriority": 0,
+    "Punchline": "聪明的导师会使用原始的亚拉戈科技挤入新人频道",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/NNKicker/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/NNKicker/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/NNKicker/latest.zip"
+  },
+  {
+    "Author": "AtmoOmen",
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
     "AssemblyVersion": "1.2.3.1",
-    "Description": "Aimed to help you track changes of various in-game currencies transactions (Gil, Seal, Tomestone, etc.).\nAlso provides features for queries, graphs, exporting data, and custom currencies tracker.",
+    "Description": "帮你记录游戏内各种货币的变更情况，并允许你导出、查看可视化数据。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
     "Tags": [
