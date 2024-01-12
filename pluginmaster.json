@@ -159,8 +159,8 @@
     "DalamudApiLevel": "8",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/24/icon-drb6aywk5m9.png"
-},
-{
+  },
+  {
     "Author": "Taurenkey",
     "Name": "Artisan",
     "Punchline": "A 'simple' crafting plugin.",
@@ -178,5 +178,5 @@
     "DalamudApiLevel": "8",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
-},
+  }
 ]
