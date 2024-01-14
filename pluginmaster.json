@@ -28,7 +28,7 @@
     "Author": "AtmoOmen",
     "Name": "NNKicker",
     "InternalName": "NNKicker",
-    "AssemblyVersion": "0.0.0.2",
+    "AssemblyVersion": "0.0.0.3",
     "Description": "新人频道里全是吹水人，必须要正义执行!",
     "ApplicableVersion": "any",
     "Tags": [
@@ -43,9 +43,9 @@
     "LoadPriority": 0,
     "Punchline": "聪明的导师会使用原始的亚拉戈科技挤入新人频道",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/NNKicker/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/NNKicker/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/NNKicker/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip"
   },
   {
     "Author": "veyn, AtmoOmen",
@@ -166,7 +166,7 @@
     "Punchline": "A 'simple' crafting plugin.",
     "Description": "The all-in-one crafting plugin.",
     "Tags": [
-        "crafting"
+      "crafting"
     ],
     "InternalName": "Artisan",
     "RepoUrl": "https://github.com/PunishXIV/Artisan",
