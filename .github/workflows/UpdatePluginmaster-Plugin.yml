@@ -40,13 +40,13 @@ jobs:
         id: read-json
         run: |
           JSON_CONTENT=$(cat ./release_content/$JSON_FILE_NAME)
-          AUTHOR=$(echo $JSON_CONTENT | jq -r '.Author // empty' | base64)
-          NAME=$(echo $JSON_CONTENT | jq -r '.Name // empty' | base64)
-          INTERNAL_NAME=$(echo $JSON_CONTENT | jq -r '.InternalName // empty' | base64)
-          ASSEMBLY_VERSION=$(echo $JSON_CONTENT | jq -r '.AssemblyVersion // empty' | base64)
-          DESCRIPTION=$(echo $JSON_CONTENT | jq -r '.Description // empty' | base64)
-          REPO_URL=$(echo $JSON_CONTENT | jq -r '.RepoUrl // empty' | base64)
-          PUNCHLINE=$(echo $JSON_CONTENT | jq -r '.Punchline // empty' | base64)
+          AUTHOR=$(echo $JSON_CONTENT | jq -r '.Author // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
+          NAME=$(echo $JSON_CONTENT | jq -r '.Name // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
+          INTERNAL_NAME=$(echo $JSON_CONTENT | jq -r '.InternalName // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
+          ASSEMBLY_VERSION=$(echo $JSON_CONTENT | jq -r '.AssemblyVersion // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
+          DESCRIPTION=$(echo $JSON_CONTENT | jq -r '.Description // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
+          REPO_URL=$(echo $JSON_CONTENT | jq -r '.RepoUrl // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
+          PUNCHLINE=$(echo $JSON_CONTENT | jq -r '.Punchline // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
           echo "AUTHOR=$AUTHOR" >> $GITHUB_ENV
           echo "NAME=$NAME" >> $GITHUB_ENV
           echo "INTERNAL_NAME=$INTERNAL_NAME" >> $GITHUB_ENV
@@ -55,10 +55,12 @@ jobs:
           echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
           echo "PUNCHLINE=$PUNCHLINE" >> $GITHUB_ENV
 
+
       - name: Trigger Target Repo Workflow with JSON Data
         run: |
           curl -X POST -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
           -H "Accept: application/vnd.github.everest-preview+json" \
-          --data '{"event_type": "update-plugin", "client_payload": {"url": "'$LATEST_RELEASE_URL'", "downloadcount": "'$DOWNLOAD_COUNT'", "author": "'$(echo $AUTHOR | base64 --decode)'", "name": "'$(echo $NAME | base64 --decode)'", "internalname": "'$(echo $INTERNAL_NAME | base64 --decode)'", "assemblyversion": "'$(echo $ASSEMBLY_VERSION | base64 --decode)'", "description": "'$(echo $DESCRIPTION | base64 --decode)'", "repourl": "'$(echo $REPO_URL | base64 --decode)'", "punchline": "'$(echo $PUNCHLINE | base64 --decode)'"}}' \
+          --data '{"event_type": "update-plugin", "client_payload": {"url": "'$LATEST_RELEASE_URL'", "downloadcount": "'$DOWNLOAD_COUNT'", "author": "'$(echo $AUTHOR | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")'", "name": "'$(echo $NAME | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")'", "internalname": "'$(echo $INTERNAL_NAME | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")'", "assemblyversion": "'$(echo $ASSEMBLY_VERSION | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")'", "description": "'$(echo $DESCRIPTION | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")'", "repourl": "'$(echo $REPO_URL | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")'", "punchline": "'$(echo $PUNCHLINE | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")'"}}' \
           https://api.github.com/repos/AtmoOmen/DalamudPlugins/dispatches
+
           
