@@ -24,3 +24,10 @@ jobs:
           DOWNLOAD_URL: ${{ github.event.client_payload.url }}
           NAME: ${{ github.event.client_payload.name }}
 
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update pluginmaster.json for ${{ github.event.client_payload.name }}"
+          git push
