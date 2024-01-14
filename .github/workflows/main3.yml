@@ -1,4 +1,4 @@
-name: Respond
+name: Respond To Update
 
 on:
   repository_dispatch:
