@@ -30,8 +30,9 @@ const defaultProperties = {
     Author: author,
     InternalName: internalName,
     Description: description,
-    RepoUrls: repoUrl,
-    Punchline: punchline
+    RepoUrl: repoUrl,
+    Punchline: punchline,
+    AcceptsFeedback: false
 };
 
 const itemIndex = plugins.findIndex(p => p.Name === pluginName);
