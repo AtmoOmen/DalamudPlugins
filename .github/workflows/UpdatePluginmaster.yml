@@ -1,4 +1,4 @@
-name: Update Pluginmaster
+name: UpdatePluginmaster
 
 on:
   repository_dispatch:
