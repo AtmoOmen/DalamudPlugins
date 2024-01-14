@@ -37,7 +37,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Update pluginmaster.json for ${{ github.event.client_payload.name }}"
+          git commit -m "Update ${{ github.event.client_payload.name }} to ${{ github.event.client_payload.assemblyversion }}"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
