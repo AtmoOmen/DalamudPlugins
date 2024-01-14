@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -31,3 +33,5 @@ jobs:
           git add -A
           git commit -m "Update pluginmaster.json for ${{ github.event.client_payload.name }}"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
