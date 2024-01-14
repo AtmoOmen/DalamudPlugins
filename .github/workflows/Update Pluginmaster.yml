@@ -1,4 +1,4 @@
-name: Respond To Update
+name: Update Pluginmaster
 
 on:
   repository_dispatch:
@@ -25,6 +25,7 @@ jobs:
           VERSION: ${{ github.event.client_payload.tag }}
           DOWNLOAD_URL: ${{ github.event.client_payload.url }}
           NAME: ${{ github.event.client_payload.name }}
+          DOWNLOAD_COUNT: ${{ github.event.client_payload.downloadcount }}
 
       - name: Commit and Push changes
         run: |
