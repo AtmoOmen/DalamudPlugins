@@ -155,5 +155,13 @@
     "DalamudApiLevel": "8",
     "Changelog": "",
     "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png"
+  },
+  {
+    "Name": "NNKicker",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip",
+    "AssemblyVersion": "0.0.0.3",
+    "DownloadCount": 0
   }
 ]
