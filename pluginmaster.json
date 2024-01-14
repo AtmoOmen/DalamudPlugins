@@ -166,6 +166,8 @@
     "Author": "AtmoOmen",
     "InternalName": "NNKicker",
     "Description": "新人频道里全是吹水人，必须要正义执行!",
-    "Punchline": "聪明的导师会使用原始的亚拉戈科技挤入新人频道"
+    "Punchline": "聪明的导师会使用原始的亚拉戈科技挤入新人频道",
+    "RepoUrl": "https://github.com/AtmoOmen",
+    "AcceptsFeedback": false
   }
 ]
