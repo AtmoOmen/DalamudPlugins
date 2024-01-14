@@ -158,10 +158,15 @@
   },
   {
     "Name": "NNKicker",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/latest.zip",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/NNKicker.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/NNKicker.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/NNKicker.zip",
     "AssemblyVersion": "0.0.0.3",
-    "DownloadCount": 0
+    "DownloadCount": 0,
+    "Author": "AtmoOmen",
+    "InternalName": "NNKicker",
+    "Description": "新人频道里全是吹水人，必须要正义执行!",
+    "Punchline": "聪明的导师会使用原始的亚拉戈科技挤入新人频道",
+    "RepoUrls": "https://github.com/AtmoOmen"
   }
 ]
