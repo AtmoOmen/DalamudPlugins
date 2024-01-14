@@ -52,9 +52,13 @@ jobs:
           echo "DESCRIPTION=$DESCRIPTION" >> $GITHUB_ENV
           echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
           echo "PUNCHLINE=$PUNCHLINE" >> $GITHUB_ENV
+          
       - name: Trigger Target Repo Workflow with JSON Data
         run: |
+          DATA=$(printf '{"event_type": "update-plugin", "client_payload": {"url": "%s", "downloadcount": "%s", "author": "%s", "name": "%s", "internalname": "%s", "assemblyversion": "%s", "description": "%s", "repourl": "%s", "punchline": "%s"}}' \
+          "$LATEST_RELEASE_URL" "$DOWNLOAD_COUNT" "$AUTHOR" "$NAME" "$INTERNAL_NAME" "$ASSEMBLY_VERSION" "$DESCRIPTION" "$REPO_URL" "$PUNCHLINE")
+      
           curl -X POST -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
           -H "Accept: application/vnd.github.everest-preview+json" \
-          --data '{"event_type": "update-plugin", "client_payload": {"url": "'$LATEST_RELEASE_URL'", "downloadcount": "'$DOWNLOAD_COUNT'", "author": "'$AUTHOR'", "name": "'$NAME'", "internalname": "'$INTERNAL_NAME'", "assemblyversion": "'$ASSEMBLY_VERSION'", "description": "'$DESCRIPTION'", "repourl": "'$REPO_URL'", "punchline": "'$PUNCHLINE'"}}' \
+          --data "$DATA" \
           https://api.github.com/repos/AtmoOmen/DalamudPlugins/dispatches
