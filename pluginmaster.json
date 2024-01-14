@@ -169,5 +169,19 @@
     "Punchline": "聪明的导师会使用原始的亚拉戈科技挤入新人频道",
     "RepoUrl": "https://github.com/AtmoOmen",
     "AcceptsFeedback": false
+  },
+  {
+    "Name": "IslandSanctuaryAutomation",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
+    "AssemblyVersion": "0.0.0.11",
+    "DownloadCount": 0,
+    "Author": "veyn",
+    "InternalName": "visland",
+    "Description": "国服适配与汉化: AtmoOmen",
+    "RepoUrl": "https://github.com/AtmoOmen",
+    "Punchline": "自动化无人岛采集作业",
+    "AcceptsFeedback": true
   }
 ]
