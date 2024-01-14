@@ -22,10 +22,15 @@ jobs:
         run: node update-plugin.js
         env:
           PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          VERSION: ${{ github.event.client_payload.tag }}
-          DOWNLOAD_URL: ${{ github.event.client_payload.url }}
-          NAME: ${{ github.event.client_payload.name }}
+          URL: ${{ github.event.client_payload.url }}
           DOWNLOAD_COUNT: ${{ github.event.client_payload.downloadcount }}
+          AUTHOR: ${{ github.event.client_payload.author }}
+          NAME: ${{ github.event.client_payload.name }}
+          INTERNAL_NAME: ${{ github.event.client_payload.internalname }}
+          ASSEMBLY_VERSION: ${{ github.event.client_payload.assemblyversion }}
+          DESCRIPTION: ${{ github.event.client_payload.description }}
+          REPO_URL: ${{ github.event.client_payload.repourl }}
+          PUNCHLINE: ${{ github.event.client_payload.punchline }}
 
       - name: Commit and Push changes
         run: |

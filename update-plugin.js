@@ -1,9 +1,14 @@
 const fs = require('fs');
 
-const pluginName = process.env.NAME || 'defaultPluginName';
+const downloadUrl = process.env.URL || 'http://default.url';
 const downloadCount = parseInt(process.env.DOWNLOAD_COUNT, 10) || 0;
-const version = process.env.VERSION || '1.0.0.0'; 
-const downloadUrl = process.env.DOWNLOAD_URL || 'http://default.url';
+const author = process.env.AUTHOR || 'AtmoOmen';
+const pluginName = process.env.NAME || 'defaultPluginName';
+const internalName = process.env.INTERNAL_NAME || 'defaultInternalName';
+const version = process.env.ASSEMBLY_VERSION || '1.0.0.0'; 
+const description = process.env.DESCRIPTION || 'None';
+const repoUrl = process.env.REPO_URL || 'https://github.com/AtmoOmen';
+const punchline = process.env.PUNCHLINE || 'None';
 const path = 'pluginmaster.json';
 
 let plugins;
@@ -21,7 +26,12 @@ const defaultProperties = {
     DownloadLinkTesting: downloadUrl,
     DownloadLinkUpdate: downloadUrl,
     AssemblyVersion: version,
-    DownloadCount: downloadCount
+    DownloadCount: downloadCount,
+    Author: author,
+    InternalName: internalName,
+    Description: description,
+    RepoUrls: repoUrl,
+    Punchline: punchline
 };
 
 const itemIndex = plugins.findIndex(p => p.Name === pluginName);
