@@ -25,21 +25,6 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/AutoHook/latest.zip"
   },
   {
-    "Author": "veyn, AtmoOmen",
-    "Name": "Island Sanctuary Automation",
-    "InternalName": "visland",
-    "AssemblyVersion": "0.0.0.11",
-    "Description": "自动化无人岛采集/工房作业等等\n\n适配/汉化: AtmoOmen\n注: 仅保证采集功能可用, 其他功能不确定不保证可用性\n答应我, 别闲鱼买挂了好吗?",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 8,
-    "Punchline": "自动化无人岛采集作业",
-    "AcceptsFeedback": false,
-    "IconUrl": "https://s3.puni.sh/media/plugin/28/icon-lruwx4y549.png",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/visland/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/visland/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/plugins/visland/latest.zip"
-  },
-  {
     "Author": "Lynesth, AtmoOmen",
     "Name": "Better Targeting System",
     "InternalName": "BetterTargetingSystem",
