@@ -1,0 +1,26 @@
+name: Respond
+
+on:
+  repository_dispatch:
+    types: [update-plugin]
+
+jobs:
+  update-plugin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Update plugin in pluginmaster.json
+        run: node update-plugin.js
+        env:
+          PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          VERSION: ${{ github.event.client_payload.tag }}
+          DOWNLOAD_URL: ${{ github.event.client_payload.url }}
+          NAME: ${{ github.event.client_payload.name }}
+
