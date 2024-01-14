@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const pluginName = process.env.NAME;
-const downloadCount = process.env.DOWNLOAD_COUNT;
+const downloadCount = parseInt(process.env.DOWNLOAD_COUNT, 10) || 0;
 const version = process.env.VERSION;
 const downloadUrl = process.env.DOWNLOAD_URL;
 const path = 'pluginmaster.json';
