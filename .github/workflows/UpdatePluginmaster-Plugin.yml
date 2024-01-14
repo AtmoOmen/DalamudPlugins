@@ -30,23 +30,21 @@ jobs:
           echo "LATEST_RELEASE_URL=$LATEST_RELEASE_URL" >> $GITHUB_ENV
           echo "DOWNLOAD_COUNT=$DOWNLOAD_COUNT" >> $GITHUB_ENV
           echo "JSON_FILE_NAME=$JSON_FILE_NAME" >> $GITHUB_ENV
-
       - name: Download and Extract the Release
         run: |
           curl -L $LATEST_RELEASE_URL -o release.zip
           unzip release.zip -d ./release_content
-
       - name: Read JSON file
         id: read-json
         run: |
           JSON_CONTENT=$(cat ./release_content/$JSON_FILE_NAME)
-          AUTHOR=$(echo $JSON_CONTENT | jq -r '.Author // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
-          NAME=$(echo $JSON_CONTENT | jq -r '.Name // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
-          INTERNAL_NAME=$(echo $JSON_CONTENT | jq -r '.InternalName // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
-          ASSEMBLY_VERSION=$(echo $JSON_CONTENT | jq -r '.AssemblyVersion // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
-          DESCRIPTION=$(echo $JSON_CONTENT | jq -r '.Description // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
-          REPO_URL=$(echo $JSON_CONTENT | jq -r '.RepoUrl // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
-          PUNCHLINE=$(echo $JSON_CONTENT | jq -r '.Punchline // empty' | python3 -c "import sys, urllib.parse; print(urllib.parse.quote(sys.stdin.read()))")
+          AUTHOR=$(echo $JSON_CONTENT | jq -r '.Author // empty')
+          NAME=$(echo $JSON_CONTENT | jq -r '.Name // empty')
+          INTERNAL_NAME=$(echo $JSON_CONTENT | jq -r '.InternalName // empty')
+          ASSEMBLY_VERSION=$(echo $JSON_CONTENT | jq -r '.AssemblyVersion // empty')
+          DESCRIPTION=$(echo $JSON_CONTENT | jq -r '.Description // empty')
+          REPO_URL=$(echo $JSON_CONTENT | jq -r '.RepoUrl // empty')
+          PUNCHLINE=$(echo $JSON_CONTENT | jq -r '.Punchline // empty')
           echo "AUTHOR=$AUTHOR" >> $GITHUB_ENV
           echo "NAME=$NAME" >> $GITHUB_ENV
           echo "INTERNAL_NAME=$INTERNAL_NAME" >> $GITHUB_ENV
@@ -54,17 +52,9 @@ jobs:
           echo "DESCRIPTION=$DESCRIPTION" >> $GITHUB_ENV
           echo "REPO_URL=$REPO_URL" >> $GITHUB_ENV
           echo "PUNCHLINE=$PUNCHLINE" >> $GITHUB_ENV
-
-
       - name: Trigger Target Repo Workflow with JSON Data
         run: |
-          DATA=$(printf '{"event_type": "update-plugin", "client_payload": {"url": "%s", "downloadcount": "%s", "author": "%s", "name": "%s", "internalname": "%s", "assemblyversion": "%s", "description": "%s", "repourl": "%s", "punchline": "%s"}}' \
-          "$LATEST_RELEASE_URL" "$DOWNLOAD_COUNT" "$(echo $AUTHOR | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")" "$(echo $NAME | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")" "$(echo $INTERNAL_NAME | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")" "$(echo $ASSEMBLY_VERSION | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")" "$(echo $DESCRIPTION | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")" "$(echo $REPO_URL | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")" "$(echo $PUNCHLINE | python3 -c "import sys, urllib.parse; print(urllib.parse.unquote(sys.stdin.read()))")")
-
           curl -X POST -H "Authorization: token ${{ secrets.PERSONAL_ACCESS_TOKEN }}" \
           -H "Accept: application/vnd.github.everest-preview+json" \
-          --data "$DATA" \
+          --data '{"event_type": "update-plugin", "client_payload": {"url": "'$LATEST_RELEASE_URL'", "downloadcount": "'$DOWNLOAD_COUNT'", "author": "'$AUTHOR'", "name": "'$NAME'", "internalname": "'$INTERNAL_NAME'", "assemblyversion": "'$ASSEMBLY_VERSION'", "description": "'$DESCRIPTION'", "repourl": "'$REPO_URL'", "punchline": "'$PUNCHLINE'"}}' \
           https://api.github.com/repos/AtmoOmen/DalamudPlugins/dispatches
-
-
-          
