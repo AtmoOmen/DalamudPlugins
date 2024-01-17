@@ -179,7 +179,7 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.0.1",
+    "AssemblyVersion": "0.0.0.2",
     "Description": "Cause I need to spend my time on more meaningful things",
     "ApplicableVersion": "any",
     "Tags": [
@@ -195,8 +195,8 @@
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "Punchline": "Help you finish some daily tasks.",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.1/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.1/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.2/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.2/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.2/latest.zip"
   }
 ]
