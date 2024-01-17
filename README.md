@@ -5,8 +5,9 @@
 | 名称      | 原作者      | 版本 | 游戏版本 | 描述 | 备注 |
 |----------|----------|----------|----------|----------|----------|
 | [AutoHook](https://github.com/InitialDet/AutoHook)  | [Det](https://github.com/InitialDet)  | 2.4.4.1 | 6.4 | 自动钓鱼 | 完全汉化，部分布局修改 |
+| [Daily Routines](https://github.com/AtmoOmen/DailyRoutines) | [AtmoOmen](https://github.com/AtmoOmen) | 0.0.0.1 | 6.4 | 一些自己写的自动化小玩具 | **个人编写**<br/>仅供娱乐 |
 | [NNKicker (Novice Network Kicker)](https://github.com/AtmoOmen/NNKicker) | [AtmoOmen](https://github.com/AtmoOmen) | 0.0.0.2 | 6.4 | 自动挤新频 | **个人编写**<br/>小玩意，仅供娱乐 |
-| [V(ery) Island](https://github.com/awgil/ffxiv_visland) | [veyn](https://github.com/awgil) | 0.0.0.11 | 6.4 | 无人岛自动采集 | 适配国服, 完全汉化, 支持导入最新版本格式的路线 |
+| [V(ery) Island](https://github.com/awgil/ffxiv_visland) | [veyn](https://github.com/awgil) | 0.0.0.11 | 6.4 | 无人岛自动采集 | 适配国服, 部分汉化, 支持导入最新版本格式的路线 |
 | [XIVLogger](https://github.com/cadaeix/XIVLogger)  | [Cadaeix](https://github.com/cadaeix)  | 1.0.4.4 | 6.4 | 记录游戏内聊天记录 | 完全汉化 部分布局修改 |
 | [BetterTargetingSystem](https://github.com/Lynesth/BetterTargetingSystem) | [Lynesh](https://github.com/Lynesth) | 0.0.7.1 | 6.4 | 游戏内目标选择系统改善 | 完全汉化 修改部分判断逻辑 解锁PVP (但 PVP 里没啥用) |
 | [Weatherman](https://github.com/NightmareXIV/Weatherman) | [NightmareXIV](https://github.com/NightmareXIV) | 2.4.0.8 | 6.4 | 修改天气 | 完全汉化 增加锁定指定时间段功能 |

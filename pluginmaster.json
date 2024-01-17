@@ -156,17 +156,47 @@
     "AcceptsFeedback": false
   },
   {
-    "Name": "IslandSanctuaryAutomation",
+    "Name": "Island Sanctuary Automation",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
     "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
     "AssemblyVersion": "0.0.0.11",
     "DownloadCount": 0,
-    "Author": "veyn",
     "InternalName": "visland",
-    "Description": "国服适配与汉化: AtmoOmen",
+    "Description": "自动化无人岛采集/工房作业等等\n\n国服适配与汉化: AtmoOmen\n注: 仅保证采集功能可用, 其他功能不确定不保证可用性\n答应我, 别闲鱼买挂了好吗?",
     "RepoUrl": "https://github.com/AtmoOmen",
     "Punchline": "自动化无人岛采集作业",
+    "Author": "veyn, AtmoOmen",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 8,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
     "AcceptsFeedback": true
+  },
+  {
+    "Author": "AtmoOmen",
+    "Name": "Daily Routines",
+    "InternalName": "DailyRoutines",
+    "AssemblyVersion": "0.0.0.1",
+    "Description": "Cause I need to spend my time on more meaningful things",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "Daily",
+      "Auto"
+    ],
+    "DalamudApiLevel": 8,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
+    "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
+    "Punchline": "Help you finish some daily tasks.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.1/latest.zip"
   }
 ]
