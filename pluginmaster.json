@@ -180,11 +180,14 @@
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
     "AssemblyVersion": "0.0.0.2",
-    "Description": "Cause I need to spend my time on more meaningful things",
+    "Punchline": "帮忙解决一些日常重复性劳动",
+    "Description": "一些简单的自动化功能合集, 帮你从一些无意义重复性工作中解放出来",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
-      "Auto"
+      "Auto",
+      "日常",
+      "自动"
     ],
     "DalamudApiLevel": 8,
     "LoadRequiredState": 0,
@@ -193,7 +196,6 @@
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
-    "Punchline": "Help you finish some daily tasks.",
     "AcceptsFeedback": true,
     "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.2/latest.zip",
     "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.2/latest.zip",
