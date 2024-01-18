@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.0.3",
+    "AssemblyVersion": "0.0.0.4",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "一些简单的自动化功能合集, 帮你从一些无意义重复性工作中解放出来",
-    "Changelog": "- 新增模块: 自动登录\n- 新增模块: 自动加入新人频道 (整合自 NNKicker)",
+    "Changelog": "- 修复模块: 自动批量完成生产理符\n  修复了当只有一个待提交理符与提交理符后询问“要继续交货”吗时插件因等待界面失败而无法继续进行的问题\n- 修改模块: 自动批量完成生产理符\n  新增了理符任务搜索框\n- 新增模块: 自动动态演练",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 40,
+    "DownloadCount": 50,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.3/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.4/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.4/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.4/latest.zip"
   }
 ]
