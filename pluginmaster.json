@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.0.9",
+    "AssemblyVersion": "0.0.1.0",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "一些简单的自动化功能合集, 帮你从一些无意义重复性工作中解放出来\n\n注: 插件仅支持在线安装",
-    "Changelog": "- 新增模块: 自动收取潜水艇 (测试/不稳定)\n- 优化了 自动跳过过场动画 模块的逻辑, 提高了稳定性\n- 优化了 自动仙人微彩 模块的逻辑",
+    "Changelog": "- 重写了配置存储逻辑, 请重新配置各模块\n- 优化了 自动收取潜水艇 模块的判断逻辑",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 332,
+    "DownloadCount": 480,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.9/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.9/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.0.9/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.0/latest.zip"
   }
 ]
