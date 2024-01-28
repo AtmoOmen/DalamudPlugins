@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.1.1",
+    "AssemblyVersion": "0.0.1.2",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "一些简单的自动化功能/易用性改动合集, 帮你从一些无意义重复性工作中解放出来\n\n注: 插件仅支持在线安装, 建议/联系/反馈都请到插件 GitHub 页面提交 Issue",
-    "Changelog": "- 新增模块: 自动下坐骑\n- 修改模块: 自动动态演练, 填补了遗漏的 QTE 类型, 如 A11 的巡航驱逐者",
+    "Changelog": "- 新增模块: 自动中断咏唱\n- 修改模块: 自动下坐骑, 极大优化了其判断逻辑\n- 修改了多个模块的描述文本",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 604,
+    "DownloadCount": 762,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.1/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.1/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.2/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.2/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.2/latest.zip"
   }
 ]
