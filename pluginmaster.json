@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.1.3",
+    "AssemblyVersion": "0.0.1.4",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "一些简单的自动化功能/易用性改动合集, 帮你从一些无意义重复性工作中解放出来\n\n注: 插件仅支持在线安装, 建议/联系/反馈都请到插件 GitHub 页面提交 Issue",
-    "Changelog": "- 修复模块: 自动下坐骑 —— 修复了启用模块后, 地星宏等类似宏无法使用的问题; 修复了使用地面类技能不会自动下坐骑的问题\n- 修改模块: 自动收取潜水艇 —— 采用了不同的触发自动修理潜水艇的逻辑",
+    "Changelog": "- 修复了 自动加入新人频道 模块开始后无法中途结束的问题\n- 优化了 自动雇员改价 模块的操作逻辑\n- 优化了 自动下坐骑 模块的判断逻辑",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 822,
+    "DownloadCount": 972,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.3/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.4/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.4/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.4/latest.zip"
   }
 ]
