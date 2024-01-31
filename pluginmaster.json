@@ -147,7 +147,7 @@
     "DownloadLinkTesting": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/NNKicker.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/NNKicker/releases/download/0.0.0.3/NNKicker.zip",
     "AssemblyVersion": "0.0.0.3",
-    "DownloadCount": 54,
+    "DownloadCount": 104,
     "Author": "AtmoOmen",
     "InternalName": "NNKicker",
     "Description": "新人频道里全是吹水人，必须要正义执行!",
@@ -161,7 +161,7 @@
     "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
     "AssemblyVersion": "0.0.0.11",
-    "DownloadCount": 106,
+    "DownloadCount": 386,
     "InternalName": "visland",
     "Description": "自动化无人岛采集/工房作业等等\n\n国服适配与汉化: AtmoOmen\n注: 仅保证采集功能可用, 其他功能不确定不保证可用性\n答应我, 别闲鱼买挂了好吗?",
     "RepoUrl": "https://github.com/AtmoOmen",
@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.1.4",
+    "AssemblyVersion": "0.0.1.5",
     "Punchline": "帮忙解决一些日常重复性劳动",
-    "Description": "一些简单的自动化功能/易用性改动合集, 帮你从一些无意义重复性工作中解放出来\n\n注: 插件仅支持在线安装, 建议/联系/反馈都请到插件 GitHub 页面提交 Issue",
-    "Changelog": "- 修复了 自动加入新人频道 模块开始后无法中途结束的问题\n- 优化了 自动雇员改价 模块的操作逻辑\n- 优化了 自动下坐骑 模块的判断逻辑",
+    "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件仅支持在线安装, 建议/联系/反馈都请到插件 GitHub 页面提交 Issue",
+    "Changelog": "- 优化了 自动下坐骑 模块的判断逻辑, 现在尝试点击正在第二段的技能也能正常下坐骑了\n- 新增模块 自动重新焦点目标, 自动隐藏未开放任务\n- 优化了多个模块的性能表现",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 972,
+    "DownloadCount": 1158,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.4/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.4/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.4/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.5/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.5/latest.zip"
   }
 ]
