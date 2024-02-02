@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.1.5",
+    "AssemblyVersion": "0.0.1.6",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件仅支持在线安装, 建议/联系/反馈都请到插件 GitHub 页面提交 Issue",
-    "Changelog": "- 优化了 自动下坐骑 模块的判断逻辑, 现在尝试点击正在第二段的技能也能正常下坐骑了\n- 新增模块 自动重新焦点目标, 自动隐藏未开放任务\n- 优化了多个模块的性能表现",
+    "Changelog": "- 修复了 自动跳过过场剧情 模块因为过场动画加载过快而跳过判定的问题\n- 优化了 自动筹备稀有品 模块的性能和判断逻辑\n- 优化了 自动收取雇员 模块的判断逻辑\n- 优化了 自动无人岛采集 模块的判断逻辑, 现在不再会获取水下节点\n- 为所有的基础模块新增了打断热键支持, 部分模块因逻辑限制不会显示打断成功的提示\n- 新增了 自动刷新招募板 模块\n- 优化了插件模块窗口和配置相关代码的逻辑与性能",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 1158,
+    "DownloadCount": 1342,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.5/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.5/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.5/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.6/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.6/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.6/latest.zip"
   }
 ]
