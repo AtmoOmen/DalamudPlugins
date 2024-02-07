@@ -161,7 +161,7 @@
     "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.11/visland.zip",
     "AssemblyVersion": "0.0.0.11",
-    "DownloadCount": 386,
+    "DownloadCount": 500,
     "InternalName": "visland",
     "Description": "自动化无人岛采集/工房作业等等\n\n国服适配与汉化: AtmoOmen\n注: 仅保证采集功能可用, 其他功能不确定不保证可用性\n答应我, 别闲鱼买挂了好吗?",
     "RepoUrl": "https://github.com/AtmoOmen",
@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.1.7",
+    "AssemblyVersion": "0.0.1.8",
     "Punchline": "帮忙解决一些日常重复性劳动",
-    "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件仅支持在线安装, 建议/联系/反馈都请到插件 GitHub 页面提交 Issue",
-    "Changelog": "- 优化了 自动雇员改价 模块的逻辑, 现在手动提起改价不再会因操作过快而跳过判定\n- 扩展了 自动雇员改价 模块的功能, 现在支持 区分 HQ 和 NQ 物品 与 最大可接受降价值 功能\n- 新增模块: 自动确认任务接取, 自动确认任务结果, 自定义招募板单页显示数量, 自动确认幻卡回收 与 自动提示过场剧情结束\n- 优化了部分模块的性能\n- 修复了部分模块配置无法保存的问题",
+    "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
+    "Changelog": "- 新增模块: 自动标记风脉泉, 自动通知新消息, 自动平均雇员金币, 自动取出雇员金币\n- 优化了 自动筹备稀有品 的逻辑, 现在当不在稀有品筹备栏目时将自动切换至稀有品筹备栏目\n- 优化了 自动提示过场剧情结束 模块的逻辑与性能开销\n- 精简了 自动取消咏唱、自动收取雇员 模块的代码\n- 优化了部分模块的描述文本和界面语言, 现在更加准确且流畅\n- 优化了主界面显示, 现在允许自定义 Tab 栏目顺序, 同时优化了模块排序方式, 并缩小了模块类名称的显示",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 1542,
+    "DownloadCount": 1810,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.7/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.7/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.7/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.8/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.8/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.8/latest.zip"
   }
 ]
