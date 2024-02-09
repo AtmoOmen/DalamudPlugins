@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.1.8",
+    "AssemblyVersion": "0.0.1.9",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
-    "Changelog": "- 新增模块: 自动标记风脉泉, 自动通知新消息, 自动平均雇员金币, 自动取出雇员金币\n- 优化了 自动筹备稀有品 的逻辑, 现在当不在稀有品筹备栏目时将自动切换至稀有品筹备栏目\n- 优化了 自动提示过场剧情结束 模块的逻辑与性能开销\n- 精简了 自动取消咏唱、自动收取雇员 模块的代码\n- 优化了部分模块的描述文本和界面语言, 现在更加准确且流畅\n- 优化了主界面显示, 现在允许自定义 Tab 栏目顺序, 同时优化了模块排序方式, 并缩小了模块类名称的显示",
+    "Changelog": "- 优化了 自动仙人微彩 模块的性能, 更新了描述文本\n- 优化了 自动动态演练 模块的性能\n- 优化了 自动通知过场剧情结束 模块的判断逻辑\n- 更新了 自动无人岛采集 和 自动通知新消息 模块, 改善了逻辑并添加了新的功能\n- 优化了部分模块所使用的工具的逻辑判断和性能开销\n- 新增模块: 快速目标选择, 自动开启盾姿, 自动召唤召唤兽",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 1810,
+    "DownloadCount": 2048,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.8/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.8/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.8/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.9/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.9/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.1.9/latest.zip"
   }
 ]
