@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.2.0",
+    "AssemblyVersion": "0.0.2.1",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
-    "Changelog": "- 修复因部分模块报错而导致插件整体卸载报错的问题\n- 优化了 快速目标选择 模块: 现在不再显示因 Y 轴差距过大而无法交互的对象; 一般类 NPC 若有头衔, 则会显示其头衔; 修复了因对象名称过长, 而将窗口永久性拉长的问题; 加入了黑名单文本功能; 优化了其性能\n- 优化了 通知管理器 的逻辑, 遇到多条通知时会将其合并为单一通知, 以避免 Windows 10+ 系统出现过长的通知显示时间; 新通知将自动过滤游戏专用字符\n- 优化了 自动中断咏唱 模块的性能消耗\n- 完全修复了 自动仙人微彩 模块, 现在其能正常按照 ezMiniCactpot 插件的推荐选择收益最大化的方案, 并且可以连续完成当日所有的仙人微彩\n- 新增模块: 自动反屏蔽词, 该模块允许在发送信息与接收信息时通过文本转换策略自主规避游戏屏蔽词系统\n- 优化了大部分模块的配置界面, 现在各界面元素尺寸会自适应调整",
+    "Changelog": "- 优化了 自动召唤召唤兽 模块的性能开销\n- 精简并完善了 自动收取雇员 模块的逻辑, 现在当持有雇员冒险录且雇员不满 80 级时也能正常工作\n- 精简并优化了 自动批量完成生产理符 模块的逻辑, 现在应该能适应更多不同的理符\n- 修改了 自动收取潜水艇 模块的逻辑, 并添加了更多有关 模块不稳定 的警告\n- 优化了 自动跳过过场动画 模块的逻辑\n- 优化并完善了 快速目标选择 模块。降低了性能开销; 允许自定义悬浮窗最多显示的目标个数; 将 允许右键按钮选中目标 勾选时的操作逻辑变更为 - 若目标可交互, 则左键按钮为交互目标, 若目标不可交互, 则左键按钮为选中目标; 将黑名单文本列表改为完全匹配模式; 现在右键按钮会跳出菜单, 允许你将该目标快速加入黑名单\n- 极大优化并完善了 自动反屏蔽词 模块的功能与逻辑。整体性能开销极大降低; 现在接收含屏蔽词的消息时将直接显示原始的完整信息; 新增招募板描述信息输入自动反屏蔽词功能; 修复了同时加载过多招募时会因屏蔽词处理而卡死游戏的问题",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 2324,
+    "DownloadCount": 2600,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.1/latest.zip"
   }
 ]
