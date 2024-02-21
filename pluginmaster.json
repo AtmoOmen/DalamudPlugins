@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.2.2",
+    "AssemblyVersion": "0.0.2.3",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
-    "Changelog": "- 优化精简了 自动雇员改价 模块的逻辑: 优化了当前市场无该物品出售的判断逻辑; 现在当无需改价时会直接点击取消, 而不是确认, 避免 出售价格修改成功 提示信息出现\n- 修复了 自动反屏蔽词 模块运行中, 部分 payload (诸如<item>) 解析时被意外加点反屏蔽的问题\n- 优化了 自动收取潜水艇 的逻辑, 现在似乎可以正常运行, 也可以正常应对潜水艇需要维修的情况\n- 扩展了 自动幻卡回收确认 模块的功能, 允许一键自动回收当前已收录的全部幻卡, 现更名为: 自动幻卡回收\n- 优化了 自动跳过过场动画 模块的逻辑\n- 新增模块: 自动抽卡 (战斗), 自动通知副本名称 (通知), 自动通知任务准备确认 (通知)",
+    "Changelog": "- 修复了 自动中断咏唱 模块会意外打断部分场景可操作器械技能的问题\n- 优化了 快速目标选择 模块的内存占用\n- 为 自动批量完成生产理符 模块加入了 操作延迟 选项\n- 优化了 自动雇员改价 模块的逻辑, 现在当市场上无该物品出售时, 自动获取历史交易记录最高价作为基础价格填写\n- 新增模块: 自动最优队员推荐 (战斗)",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 2978,
+    "DownloadCount": 3414,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.2/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.3/latest.zip"
   }
 ]
