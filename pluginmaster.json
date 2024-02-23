@@ -179,10 +179,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.2.3",
+    "AssemblyVersion": "0.0.2.4",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
-    "Changelog": "- 修复了 自动中断咏唱 模块会意外打断部分场景可操作器械技能的问题\n- 优化了 快速目标选择 模块的内存占用\n- 为 自动批量完成生产理符 模块加入了 操作延迟 选项\n- 优化了 自动雇员改价 模块的逻辑, 现在当市场上无该物品出售时, 自动获取历史交易记录最高价作为基础价格填写\n- 新增模块: 自动最优队员推荐 (战斗)",
+    "Changelog": "- 将 自动收取潜水艇 模块移入稳定状态\n- 优化了 自动最优队员推荐 模块的逻辑, 且修复了四人本中使用防护或治疗职业给对位点赞时名称不显示的问题\n- 优化了 自动开启盾姿、自动召唤召唤兽、自动抽卡 模块的逻辑\n- 扩展了 自动反屏蔽词 模块的功能, 现在可以在模块配置界面手动输入最多 1000 字的文本并同时查看游戏屏蔽与模块反屏蔽结果\n- 新增模块: 自动精制魔晶石 (一般)",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -191,7 +191,7 @@
       "自动"
     ],
     "DalamudApiLevel": 8,
-    "DownloadCount": 3414,
+    "DownloadCount": 3818,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -199,8 +199,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.3/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.4/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.4/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.4/latest.zip"
   }
 ]
