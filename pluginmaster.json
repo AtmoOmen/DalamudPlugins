@@ -4,7 +4,7 @@
     "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.78/latest.zip",
     "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.78/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.78/latest.zip",
-    "AssemblyVersion": "0.0.0.11",
+    "AssemblyVersion": "0.0.0.78",
     "DownloadCount": 1056,
     "InternalName": "visland",
     "Description": "自动化无人岛采集/工房作业等等\n\n国服适配与汉化: AtmoOmen\n答应我, 别闲鱼买挂了好吗?",
@@ -23,10 +23,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.2.6",
+    "AssemblyVersion": "0.0.2.7",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
-    "Changelog": "- 优化了 自动跳过过场动画 模块的逻辑, 现在可以正常跳过收取的第一艘潜水艇的过场动画了\n- 优化精简了 自动出卡 模块的逻辑: 仅当成功出卡时才会发送提示信息; 不会再尝试发卡给技能范围之外的队友; 降低了整体性能开销\n- 扩展了 自动筹备稀有品 模块的逻辑, 现在可以选择配置跳过上交 HQ 物品\n- 优化了 自动批量完成生产理符 模块的逻辑, 现在在提交旧版本的批发理符时可正常多次交货了\n- 修复了 自动雇员改价 模块中 最大可接受降价值 功能不可用的问题\n- 优化了 通知管理器 的逻辑, 提高了稳定性并降低了通知内容格式错乱问题的频率\n- 新增模块: 自动确认副本内物体对话框",
+    "Changelog": "- 更新至国服 6.5 , Dalamud API 9\n- 扩充了设置界面显示信息, 现在你可以在其中看到最新版本信息以及更新日志了\n- 优化了 自动登录 模块的逻辑\n- 修复了 自动删除邮件 模块, 未自动确认的问题\n- 修复了 自动反屏蔽词 模块, 输入 星号(*) 时被插件反屏蔽系统循环处理的问题",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -34,8 +34,8 @@
       "日常",
       "自动"
     ],
-    "DalamudApiLevel": 8,
-    "DownloadCount": 4862,
+    "DalamudApiLevel": 9,
+    "DownloadCount": 5822,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -43,8 +43,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.6/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.6/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.6/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.7/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.7/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.7/latest.zip"
   }
 ]
