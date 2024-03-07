@@ -23,10 +23,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.2.7",
+    "AssemblyVersion": "0.0.2.8",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
-    "Changelog": "- 更新至国服 6.5 , Dalamud API 9\n- 扩充了设置界面显示信息, 现在你可以在其中看到最新版本信息以及更新日志了\n- 优化了 自动登录 模块的逻辑\n- 修复了 自动删除邮件 模块, 未自动确认的问题\n- 修复了 自动反屏蔽词 模块, 输入 星号(*) 时被插件反屏蔽系统循环处理的问题",
+    "Changelog": "- 修复了 自动精制魔晶石 模块启用后, 打开精制界面时游戏崩溃的问题\n- 优化了 自动无人岛采集 模块的配置界面显示\n- 优化了 自动雇员改价 模块的逻辑, 增强了对当前物品的验证逻辑, 加入了跳过本玩家下其他雇员出售物品的逻辑\n- 新增模块: 自动道具分解, 自动确认道具分解, 自动刷新市场搜索结果",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -35,7 +35,7 @@
       "自动"
     ],
     "DalamudApiLevel": 9,
-    "DownloadCount": 5822,
+    "DownloadCount": 8326,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -43,8 +43,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.7/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.7/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.7/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.8/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.8/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.8/latest.zip"
   }
 ]
