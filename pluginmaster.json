@@ -23,10 +23,10 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.0.2.9",
+    "AssemblyVersion": "0.0.3.0",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
-    "Changelog": "- 优化了 自动雇员改价 模块中获取物品当前市场出售列表逻辑\n- 修改了 自动精制魔晶石 模块的实现方法, 以防止一些界面上可能出现的问题\n- 修复了 自动跳过过场动画 模块卸载后重新加载报错的问题\n- 优化了 自动仙人微彩 模块的逻辑, 降低了因 ezMiniCactpot 插件特殊情况而导致界面无法被关闭的可能性\n- 修改了四个金碟小游戏模块的交互逻辑, 现在应该可以正常支持金碟家具游玩\n- 修改了 自动批量完成生产理符 模块的逻辑, 现在应该可以正常支持 捕鱼人 理符\n- 优化了 自动反屏蔽 模块的逻辑, 提高了招募板描述输入时调用反屏蔽逻辑的灵敏度\n- 新增模块: 自动上坐骑, 自动跳舞, 自动防离开状态",
+    "Changelog": "请到插件内 设置 页面查阅最新版本的更新日志",
     "ApplicableVersion": "any",
     "Tags": [
       "Daily",
@@ -35,7 +35,7 @@
       "自动"
     ],
     "DalamudApiLevel": 9,
-    "DownloadCount": 12436,
+    "DownloadCount": 17996,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -43,8 +43,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.9/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.9/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.2.9/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.3.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.3.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.0.3.0/latest.zip"
   }
 ]
