@@ -1,11 +1,11 @@
 [
   {
     "Name": "V(ery) Island",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.78/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.78/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.78/latest.zip",
-    "AssemblyVersion": "0.0.0.78",
-    "DownloadCount": 3898,
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.79/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.79/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/visland-0.0.0.79/latest.zip",
+    "AssemblyVersion": "0.0.0.79",
+    "DownloadCount": 6486,
     "InternalName": "visland",
     "Description": "自动化无人岛采集/工房作业等等\n\n国服适配与汉化: AtmoOmen\n答应我, 别闲鱼买挂了好吗?",
     "RepoUrl": "https://github.com/AtmoOmen",
