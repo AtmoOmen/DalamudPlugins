@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "V(ery) Island",
+    "AssemblyVersion": "0.0.0.8",
+    "DownloadCount": 9586,
+    "InternalName": "visland",
+    "Description": "自动化无人岛采集/工房作业等等\n\n国服适配与汉化: AtmoOmen\n答应我, 别闲鱼买挂了好吗?",
+    "RepoUrl": "https://github.com/AtmoOmen/ffxiv_visland-cn",
+    "Punchline": "自动化无人岛采集作业",
+    "Author": "veyn, AtmoOmen",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://hub.gitmirror.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip",
+    "DownloadLinkTesting": "https://hub.gitmirror.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip",
+    "DownloadLinkUpdate": "https://hub.gitmirror.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip"
+  },
+  {
+    "Author": "AtmoOmen",
+    "Name": "Daily Routines",
+    "InternalName": "DailyRoutines",
+    "AssemblyVersion": "0.3.6.0",
+    "Punchline": "帮忙解决一些日常重复性劳动",
+    "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
+    "Changelog": "请到插件内 设置 页面查阅最新版本的更新日志",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "Daily",
+      "Auto",
+      "日常",
+      "自动"
+    ],
+    "DalamudApiLevel": 9,
+    "DownloadCount": 44000,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
+    "IconUrl": "https://raw.gitmirror.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://hub.gitmirror.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip",
+    "DownloadLinkTesting": "https://hub.gitmirror.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip",
+    "DownloadLinkUpdate": "https://hub.gitmirror.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip"
+  }
+]
