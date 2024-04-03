@@ -7,7 +7,14 @@
 https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 ```
 
+**国内用户可能访问效果更佳的链接:**
+
+```
+https://raw.gitmirror.com/AtmoOmen/DalamudPlugins/main/pluginmaster-cn.json
+```
+
 ## 仓库插件列表
+
 | 名称      | 原作者      | 版本 | 游戏版本 | 描述 | 备注 |
 |----------|----------|----------|----------|----------|----------|
 | [Daily Routines](https://github.com/AtmoOmen/DailyRoutines) | [AtmoOmen](https://github.com/AtmoOmen) | 0.0.2.7 | 6.5 | 一些自动化小工具合集 | **个人编写**<br/>仅供娱乐 |
