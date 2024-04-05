@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 **国内用户可能访问效果更佳的链接:**
 
 ```
-https://raw.gitmirror.com/AtmoOmen/DalamudPlugins/main/pluginmaster-cn.json
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster-cn.json
 ```
 
 ## 仓库插件列表

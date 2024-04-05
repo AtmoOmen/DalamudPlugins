@@ -15,9 +15,9 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://hub.gitmirror.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip",
-    "DownloadLinkTesting": "https://hub.gitmirror.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip",
-    "DownloadLinkUpdate": "https://hub.gitmirror.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip"
+    "DownloadLinkInstall": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip",
+    "DownloadLinkTesting": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip",
+    "DownloadLinkUpdate": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.0.8/latest.zip"
   },
   {
     "Author": "AtmoOmen",
@@ -41,10 +41,10 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
-    "IconUrl": "https://raw.gitmirror.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
+    "IconUrl": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://hub.gitmirror.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip",
-    "DownloadLinkTesting": "https://hub.gitmirror.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip",
-    "DownloadLinkUpdate": "https://hub.gitmirror.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip"
+    "DownloadLinkInstall": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip",
+    "DownloadLinkTesting": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip",
+    "DownloadLinkUpdate": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.6.0/latest.zip"
   }
 ]
