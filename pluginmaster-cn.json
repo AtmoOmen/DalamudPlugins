@@ -23,7 +23,7 @@
     "Author": "AtmoOmen",
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.3.7.0",
+    "AssemblyVersion": "0.3.7.1",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
     "Changelog": "请到插件内 设置 页面查阅最新版本的更新日志",
@@ -43,8 +43,8 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.7.0/latest.zip",
-    "DownloadLinkTesting": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.7.0/latest.zip",
-    "DownloadLinkUpdate": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.7.0/latest.zip"
+    "DownloadLinkInstall": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.7.1/latest.zip",
+    "DownloadLinkTesting": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.7.1/latest.zip",
+    "DownloadLinkUpdate": "https://mirror.ghproxy.com/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.3.7.1/latest.zip"
   }
 ]
