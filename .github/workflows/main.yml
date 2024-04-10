@@ -17,4 +17,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Modify pluginmaster-cn.json" -a || echo "No changes to commit"
-          git push
+          git push origin main --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
