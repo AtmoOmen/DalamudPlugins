@@ -18,3 +18,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git commit -m "Modify pluginmaster-cn.json" -a || echo "No changes to commit"
           git push --set-upstream https://github.com/${{ github.repository }} HEAD:main
+        env:
+            GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
