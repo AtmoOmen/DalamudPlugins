@@ -1,0 +1,20 @@
+name: Modify PluginmasterCN
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  modify-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Modify JSON
+        run: python modify_json.py
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Modify pluginmaster-cn.json" -a || echo "No changes to commit"
+          git push
