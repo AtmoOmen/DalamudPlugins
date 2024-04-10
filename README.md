@@ -17,7 +17,7 @@ https://mirror.ghproxy.com/https://raw.githubusercontent.com/AtmoOmen/DalamudPlu
 
 | 名称      | 原作者      | 游戏版本 | 描述 | 备注 |
 |----------|----------|----------|----------|----------|
-| [Daily Routines](https://github.com/AtmoOmen/DailyRoutines) | [AtmoOmen](https://github.com/AtmoOmen) | 6.51 | 一些自动化小工具合集 | **个人编写**<br/>仅供娱乐 |
+| [Daily Routines](https://github.com/AtmoOmen/DailyRoutines) | [AtmoOmen](https://github.com/AtmoOmen) | 6.51 | 一些自动化小工具合集 | **个人编写**, 仅供娱乐 |
 | [V(ery) Island](https://github.com/AtmoOmen/ffxiv_visland-cn) | [veyn](https://github.com/awgil) | 6.51 | 无人岛自动采集 | 适配国服, 完全汉化 |
 | [vnavmesh](https://github.com/AtmoOmen/ffxiv_navmesh-cn) | [veyn](https://github.com/awgil) | 6.51 | 自动寻路 | 适配国服, 部分汉化 |
 
