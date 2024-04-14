@@ -55,5 +55,22 @@
     "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.1.0/latest.zip",
     "DownloadLinkTesting": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.1.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.1.0/latest.zip"
+  },
+  {
+    "Name": "Hyperborea",
+    "InternalName": "Hyperborea",
+    "AssemblyVersion": "1.0.0.10",
+    "Author": "kawaii, AtmoOmen",
+    "DownloadCount": 2281,
+    "Punchline": "你说, 我们去陌迪翁牢狱里拍照怎么样?",
+    "Description": "安全地前往探索游戏内的任何区域, 主要用于拍照\n\n汉化与国服适配: AtmoOmen",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 9,
+    "AcceptsFeedback": true,
+    "RepoUrl": "https://github.com/AtmoOmen/Hyperborea",
+    "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/Hyperborea/main/icon.png",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.10/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.10/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.10/latest.zip"
   }
 ]
