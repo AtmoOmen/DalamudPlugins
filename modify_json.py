@@ -6,7 +6,7 @@ def modify_links(json_content):
         for key, value in item.items():
             if isinstance(value, str) and 'http' in value:
                 if key != 'RepoUrl':
-                    item[key] = f"https://mirror.ghproxy.com/{value}"
+                    item[key] = f"https://gh.atmoomen.top/{value}"
     return json_content
 
 def main():
