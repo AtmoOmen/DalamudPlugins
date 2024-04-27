@@ -2,9 +2,9 @@
     {
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "0.4.1.0",
+        "AssemblyVersion": "0.4.2.0",
         "Author": "AtmoOmen",
-        "DownloadCount": 71256,
+        "DownloadCount": 76290,
         "Punchline": "\u5e2e\u5fd9\u89e3\u51b3\u4e00\u4e9b\u65e5\u5e38\u91cd\u590d\u6027\u52b3\u52a8",
         "Description": "\u8f7b\u91cf\u5316\u3001\u4f4e\u6027\u80fd\u6d88\u8017\u3001\u7b80\u5355\u7684\u81ea\u52a8\u5316\u529f\u80fd/\u6613\u7528\u6027\u6539\u52a8\u5408\u96c6, \u5e2e\u4f60\u4ece\u4e00\u4e9b\u65e0\u610f\u4e49\u7684\u91cd\u590d\u6027\u5de5\u4f5c\u4e2d\u89e3\u653e\u51fa\u6765\n\n\u6ce8: \u63d2\u4ef6\u514d\u8d39\u5f00\u6e90, \u4ec5\u652f\u6301\u5728\u7ebf\u5b89\u88c5",
         "Changelog": "\u8bf7\u5230\u63d2\u4ef6\u5185 \u8bbe\u7f6e \u9875\u9762\u67e5\u9605\u6700\u65b0\u7248\u672c\u7684\u66f4\u65b0\u65e5\u5fd7",
@@ -19,9 +19,9 @@
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.1.0/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.1.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.1.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.2.0/latest.zip",
+        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.2.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.2.0/latest.zip"
     },
     {
         "Name": "V(ery) Island",
