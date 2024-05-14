@@ -26,12 +26,12 @@
   {
     "Name": "HousingChecker",
     "InternalName": "HousingChecker",
-    "AssemblyVersion": "0.0.0.2",
+    "AssemblyVersion": "0.0.0.3",
     "Author": "AtmoOmen",
-    "DownloadCount": 11,
+    "DownloadCount": 56,
     "Punchline": "艾欧泽亚售楼中心 Dalamud 分部",
     "Description": "适用于 国服 的 艾欧泽亚售楼中心 数据上传器, 支持自动上传与手动快捷上传\n\n房区数据: 选择 住宅区 时自动上传\n抽选数据: 查看 空地门牌 时自动上传",
-    "Changelog": "优化了快捷上传功能",
+    "Changelog": "优化了上传提示信息与逻辑",
     "ApplicableVersion": "any",
     "Tags": [
       "house",
@@ -45,9 +45,9 @@
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/AtmoOmen/HousingChecker",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/HousingChecker/main/imgs/icon.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.2/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.3/latest.zip"
   },
   {
     "Name": "V(ery) Island",
