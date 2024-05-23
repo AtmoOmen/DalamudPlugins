@@ -68,9 +68,9 @@
   {
     "Name": "vnavmesh",
     "InternalName": "vnavmesh",
-    "AssemblyVersion": "0.0.3.0",
+    "AssemblyVersion": "0.0.4.0",
     "Author": "veyn, AtmoOmen",
-    "DownloadCount": 6398,
+    "DownloadCount": 10464,
     "Punchline": "行遍千里",
     "Description": "不仅会自动寻路, 还能自动避障",
     "ApplicableVersion": "any",
@@ -78,9 +78,9 @@
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/ffxiv_navmesh-cn/master/icon2.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.3.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.3.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.3.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.4.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.4.0/latest.zip"
   },
   {
     "Name": "Hyperborea",
