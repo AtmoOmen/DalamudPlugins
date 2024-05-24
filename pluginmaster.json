@@ -83,6 +83,30 @@
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.4.0/latest.zip"
   },
   {
+    "Author": "The Combat Reborn Team, AtmoOmen (本地化及国服适配)",
+    "Name": "GatherBuddy Reborn",
+    "InternalName": "GatherbuddyReborn",
+    "Description": "GatherBuddy 支持自动采集版, 需要安装并启用 vnavmesh 用于寻路",
+    "ApplicableVersion": "any",
+    "Tags": [
+        "采集",
+        "钓鱼",
+        "自动"
+    ],
+    "CategoryTags": [
+        "Jobs",
+        "Utility"
+    ],
+    "IsTestingExclusive": false,
+    "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
+    "Punchline": "Simplify Gathering and Fishing to the extreme.",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.4/GatherbuddyReborn.zip",
+    "AssemblyVersion": "6.58.2.4",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.4/GatherbuddyReborn.zip",
+    "DownloadCount": 260
+  },
+  {
     "Name": "Hyperborea",
     "InternalName": "Hyperborea",
     "AssemblyVersion": "1.0.0.10",
