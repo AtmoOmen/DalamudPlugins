@@ -83,6 +83,30 @@
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.4.0/latest.zip"
     },
     {
+        "Author": "The Combat Reborn Team, AtmoOmen (\u672c\u5730\u5316\u53ca\u56fd\u670d\u9002\u914d)",
+        "Name": "GatherBuddy Reborn",
+        "InternalName": "GatherbuddyReborn",
+        "Description": "GatherBuddy \u652f\u6301\u81ea\u52a8\u91c7\u96c6\u7248, \u9700\u8981\u5b89\u88c5\u5e76\u542f\u7528 vnavmesh \u7528\u4e8e\u5bfb\u8def",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "\u91c7\u96c6",
+            "\u9493\u9c7c",
+            "\u81ea\u52a8"
+        ],
+        "CategoryTags": [
+            "Jobs",
+            "Utility"
+        ],
+        "IsTestingExclusive": false,
+        "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
+        "Punchline": "Simplify Gathering and Fishing to the extreme.",
+        "AcceptsFeedback": true,
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.4/GatherbuddyReborn.zip",
+        "AssemblyVersion": "6.58.2.4",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.4/GatherbuddyReborn.zip",
+        "DownloadCount": 260
+    },
+    {
         "Name": "Hyperborea",
         "InternalName": "Hyperborea",
         "AssemblyVersion": "1.0.0.10",
