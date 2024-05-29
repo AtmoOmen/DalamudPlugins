@@ -2,9 +2,9 @@
   {
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.4.8.1",
+    "AssemblyVersion": "0.4.9.0",
     "Author": "AtmoOmen",
-    "DownloadCount": 112256,
+    "DownloadCount": 118422,
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
     "Changelog": "请到插件内 设置 页面查阅最新版本的更新日志",
@@ -19,16 +19,16 @@
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.8.1/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.8.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.8.1/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.9.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.9.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.4.9.0/latest.zip"
   },
   {
     "Name": "HousingChecker",
     "InternalName": "HousingChecker",
     "AssemblyVersion": "0.0.0.3",
     "Author": "AtmoOmen",
-    "DownloadCount": 56,
+    "DownloadCount": 142,
     "Punchline": "艾欧泽亚售楼中心 Dalamud 分部",
     "Description": "适用于 国服 的 艾欧泽亚售楼中心 数据上传器, 支持自动上传与手动快捷上传\n\n房区数据: 选择 住宅区 时自动上传\n抽选数据: 查看 空地门牌 时自动上传",
     "Changelog": "优化了上传提示信息与逻辑",
