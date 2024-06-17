@@ -53,18 +53,18 @@
     {
         "Name": "V(ery) Island",
         "InternalName": "visland",
-        "AssemblyVersion": "0.0.4.0",
+        "AssemblyVersion": "0.0.5.0",
         "Author": "veyn, AtmoOmen",
-        "DownloadCount": 21890,
+        "DownloadCount": 388168,
         "Punchline": "\u81ea\u52a8\u5316\u65e0\u4eba\u5c9b\u91c7\u96c6\u4f5c\u4e1a",
         "Description": "\u81ea\u52a8\u5316\u65e0\u4eba\u5c9b\u91c7\u96c6/\u5de5\u623f\u4f5c\u4e1a\u7b49\u7b49\n\n\u56fd\u670d\u9002\u914d\u4e0e\u6c49\u5316: AtmoOmen\n\u7b54\u5e94\u6211, \u522b\u95f2\u9c7c\u4e70\u6302\u4e86\u597d\u5417?",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 9,
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/ffxiv_visland-cn",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.4.0/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.4.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.4.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.5.0/latest.zip",
+        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.5.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.5.0/latest.zip"
     },
     {
         "Name": "vnavmesh",
