@@ -86,9 +86,9 @@
   {
     "Name": "GatherBuddy Reborn",
     "InternalName": "GatherbuddyReborn",
-    "AssemblyVersion": "6.58.2.6",
+    "AssemblyVersion": "6.58.2.18",
     "Author": "The Combat Reborn Team, AtmoOmen (本地化及国服适配)",
-    "DownloadCount": 376,
+    "DownloadCount": 1968,
     "Punchline": "GatherBuddy 自动采集版",
     "Description": "GatherBuddy 自动采集版, 需要安装并启用 vnavmesh 用于寻路",
     "ApplicableVersion": "any",
@@ -101,8 +101,8 @@
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/AtmoOmen/GatherBuddyReborn",
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.6/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.6/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.18/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.18/latest.zip"
   },
   {
     "Name": "Hyperborea",
