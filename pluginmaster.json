@@ -3,7 +3,7 @@
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
     "AssemblyVersion": "0.5.2.0",
-    "TestingAssemblyVersion": "0.5.2.5",
+    "TestingAssemblyVersion": "0.5.2.6",
     "Author": "AtmoOmen",
     "DownloadCount": 143404,
     "Punchline": "帮忙解决一些日常重复性劳动",
@@ -21,7 +21,7 @@
     "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.5.2.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.5.2.5/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.5.2.6/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/DailyRoutines/releases/download/0.5.2.0/latest.zip"
   },
   {
