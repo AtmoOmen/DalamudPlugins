@@ -22,4 +22,5 @@ https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 | [V(ery) Island](https://github.com/AtmoOmen/ffxiv_visland-cn) | [veyn](https://github.com/awgil) | 6.55 | 无人岛自动采集 | 适配国服, 完全汉化 |
 | [vnavmesh](https://github.com/AtmoOmen/ffxiv_navmesh-cn) | [veyn](https://github.com/awgil) | 6.55 | 自动寻路 | 适配国服, 部分汉化 |
 | [Hyperborea](https://github.com/AtmoOmen/Hyperborea) | [kawaii](https://github.com/kawaii) | 6.55 | 自由加载游戏内任意区域, 用于拍照 | 适配国服, 完全汉化 |
+| [GatherBuddyReborn](https://github.com/AtmoOmen/GatherBuddyReborn) | [Ottermandias](https://github.com/Ottermandias)， [CombatReborn](https://github.com/FFXIV-CombatReborn) | 6.55 | Gather Buddy 自动采集版 | 适配国服 |
 
