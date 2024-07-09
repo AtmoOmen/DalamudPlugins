@@ -20,9 +20,9 @@
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/DailyRoutines",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DailyRoutines/main/imgs/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.5.5.4/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.5.5.4/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/DailyRoutines/releases/download/0.5.5.4/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
+        "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip"
     },
     {
         "Name": "HousingChecker",
