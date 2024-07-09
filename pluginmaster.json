@@ -5,9 +5,9 @@
     "AssemblyVersion": "0.5.5.4",
     "TestingAssemblyVersion": "0.5.5.4",
     "Author": "AtmoOmen",
-    "DownloadCount": 186164,
+    "DownloadCount": 200000,
     "Punchline": "帮忙解决一些日常重复性劳动",
-    "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\n\n注: 插件免费开源, 仅支持在线安装",
+    "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来",
     "Changelog": "请到插件内 设置 页面查阅最新版本的更新日志",
     "ApplicableVersion": "any",
     "Tags": [
