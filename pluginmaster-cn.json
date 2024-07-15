@@ -3,7 +3,7 @@
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
         "AssemblyVersion": "0.5.5.4",
-        "TestingAssemblyVersion": "0.5.5.4",
+        "TestingAssemblyVersion": "1.0.0.0",
         "Author": "AtmoOmen",
         "DownloadCount": 200000,
         "Punchline": "\u5e2e\u5fd9\u89e3\u51b3\u4e00\u4e9b\u65e5\u5e38\u91cd\u590d\u6027\u52b3\u52a8",
@@ -16,12 +16,11 @@
             "\u65e5\u5e38",
             "\u81ea\u52a8"
         ],
-        "DalamudApiLevel": 9,
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
         "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
+        "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip",
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip"
     },
     {
