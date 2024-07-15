@@ -3,7 +3,7 @@
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
         "AssemblyVersion": "0.5.5.4",
-        "TestingAssemblyVersion": "1.0.0.0",
+        "TestingAssemblyVersion": "0.5.5.4",
         "Author": "AtmoOmen",
         "DownloadCount": 200000,
         "Punchline": "\u5e2e\u5fd9\u89e3\u51b3\u4e00\u4e9b\u65e5\u5e38\u91cd\u590d\u6027\u52b3\u52a8",
@@ -16,12 +16,38 @@
             "\u65e5\u5e38",
             "\u81ea\u52a8"
         ],
+        "DalamudApiLevel": 9,
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
         "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip",
+        "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip"
+    },
+    {
+        "Name": "Daily Routines (APIX)",
+        "InternalName": "DailyRoutines",
+        "AssemblyVersion": "1.0.0.0",
+        "TestingAssemblyVersion": "1.0.0.0",
+        "Author": "AtmoOmen",
+        "DownloadCount": 200000,
+        "Punchline": "\u5e2e\u5fd9\u89e3\u51b3\u4e00\u4e9b\u65e5\u5e38\u91cd\u590d\u6027\u52b3\u52a8 (\u56fd\u9645\u670d)",
+        "Description": "\u8f7b\u91cf\u5316\u3001\u4f4e\u6027\u80fd\u6d88\u8017\u3001\u7b80\u5355\u7684\u81ea\u52a8\u5316\u529f\u80fd/\u6613\u7528\u6027\u6539\u52a8\u5408\u96c6, \u5e2e\u4f60\u4ece\u4e00\u4e9b\u65e0\u610f\u4e49\u7684\u91cd\u590d\u6027\u5de5\u4f5c\u4e2d\u89e3\u653e\u51fa\u6765",
+        "Changelog": "\u8bf7\u5230\u63d2\u4ef6\u5185 \u8bbe\u7f6e \u9875\u9762\u67e5\u9605\u6700\u65b0\u7248\u672c\u7684\u66f4\u65b0\u65e5\u5fd7",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "Daily",
+            "Auto",
+            "\u65e5\u5e38",
+            "\u81ea\u52a8"
+        ],
+        "DalamudApiLevel": 10,
+        "AcceptsFeedback": true,
+        "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
+        "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip",
+        "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip"
     },
     {
         "Name": "HousingChecker",
