@@ -26,8 +26,8 @@
   {
     "Name": "Daily Routines (APIX)",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "1.0.4.0",
-    "TestingAssemblyVersion": "1.0.4.0",
+    "AssemblyVersion": "1.0.5.0",
+    "TestingAssemblyVersion": "1.0.5.0",
     "Author": "AtmoOmen",
     "Punchline": "帮忙解决一些日常重复性劳动 (国际服)",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来",
