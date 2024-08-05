@@ -49,11 +49,11 @@
     {
         "Name": "HousingChecker",
         "InternalName": "HousingChecker",
-        "AssemblyVersion": "0.0.0.3",
+        "AssemblyVersion": "0.0.0.4",
         "Author": "AtmoOmen",
         "Punchline": "\u827e\u6b27\u6cfd\u4e9a\u552e\u697c\u4e2d\u5fc3 Dalamud \u5206\u90e8",
         "Description": "\u9002\u7528\u4e8e \u56fd\u670d \u7684 \u827e\u6b27\u6cfd\u4e9a\u552e\u697c\u4e2d\u5fc3 \u6570\u636e\u4e0a\u4f20\u5668, \u652f\u6301\u81ea\u52a8\u4e0a\u4f20\u4e0e\u624b\u52a8\u5feb\u6377\u4e0a\u4f20\n\n\u623f\u533a\u6570\u636e: \u9009\u62e9 \u4f4f\u5b85\u533a \u65f6\u81ea\u52a8\u4e0a\u4f20\n\u62bd\u9009\u6570\u636e: \u67e5\u770b \u7a7a\u5730\u95e8\u724c \u65f6\u81ea\u52a8\u4e0a\u4f20",
-        "Changelog": "\u4f18\u5316\u4e86\u4e0a\u4f20\u63d0\u793a\u4fe1\u606f\u4e0e\u903b\u8f91",
+        "Changelog": "- \u4fee\u590d\u4e86\u4fe1\u606f\u88ab\u91cd\u590d\u4e0a\u4f20\u7684\u95ee\u9898\n- \u4fee\u590d\u4e86\u672a\u80fd\u4e0a\u4f20\u62bd\u9009\u7ed3\u679c\u4fe1\u606f\u7684\u95ee\u9898",
         "ApplicableVersion": "any",
         "Tags": [
             "house",
@@ -67,9 +67,9 @@
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/HousingChecker",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/HousingChecker/main/imgs/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.3/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.3/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.3/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.4/latest.zip",
+        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.4/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.4/latest.zip"
     },
     {
         "Name": "V(ery) Island",
