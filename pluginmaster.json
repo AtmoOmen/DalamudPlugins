@@ -2,8 +2,8 @@
   {
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.5.5.4",
-    "TestingAssemblyVersion": "0.5.5.4",
+    "AssemblyVersion": "0.5.6.0",
+    "TestingAssemblyVersion": "0.5.6.0",
     "Author": "AtmoOmen",
     "Punchline": "帮忙解决一些日常重复性劳动",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来",
