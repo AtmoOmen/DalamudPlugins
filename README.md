@@ -1,17 +1,29 @@
 # DalamudPlugins
 由 **AtmoOmen** 个人维护的 Dalamud 插件仓库
 
-## 仓库链接 / Repo Link
+Dalamud Plugin Repo Maintained by AtmoOmen
+
+## 链接 / Link
+
+**加速链接 / Link For Chinese Mainland:**
 
 ```
 https://gh.atmoomen.top/DalamudPlugins/main/pluginmaster-cn.json
 ```
 
-**原始链接:**
+**原始链接 / Original Link:**
 
 ```
 https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 ```
+
+**Daily Routines Discord:**
+
+```
+https://discord.gg/MDvv8Ejntw
+```
+
+
 
 ## 仓库插件列表
 
