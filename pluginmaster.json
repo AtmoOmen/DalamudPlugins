@@ -48,6 +48,31 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip"
   },
   {
+    "Name": "Untarnished Heart",
+    "InternalName": "UntarnishedHeart",
+    "AssemblyVersion": "0.0.2.0",
+    "TestingAssemblyVersion": "0.0.2.0",
+    "Author": "AtmoOmen",
+    "Punchline": "自动化 T 职副本场次成就刷取工具",
+    "Description": "自动化 T 职副本场次成就刷取工具\n注意: 副本战斗需要自行使用其他插件解决",
+    "Changelog": "- 初版发布",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "自动",
+      "T 职",
+      "坦克",
+      "成就",
+      "心之长明"
+    ],
+    "DalamudApiLevel": 10,
+    "AcceptsFeedback": true,
+    "IconUrl": "https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
+    "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip"
+  },
+  {
     "Name": "HousingChecker",
     "InternalName": "HousingChecker",
     "AssemblyVersion": "0.0.0.4",
