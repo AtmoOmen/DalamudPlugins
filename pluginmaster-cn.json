@@ -49,31 +49,6 @@
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip"
     },
     {
-        "Name": "HousingChecker",
-        "InternalName": "HousingChecker",
-        "AssemblyVersion": "0.0.0.4",
-        "Author": "AtmoOmen",
-        "Punchline": "\u827e\u6b27\u6cfd\u4e9a\u552e\u697c\u4e2d\u5fc3 Dalamud \u5206\u90e8",
-        "Description": "\u9002\u7528\u4e8e \u56fd\u670d \u7684 \u827e\u6b27\u6cfd\u4e9a\u552e\u697c\u4e2d\u5fc3 \u6570\u636e\u4e0a\u4f20\u5668, \u652f\u6301\u81ea\u52a8\u4e0a\u4f20\u4e0e\u624b\u52a8\u5feb\u6377\u4e0a\u4f20\n\n\u623f\u533a\u6570\u636e: \u9009\u62e9 \u4f4f\u5b85\u533a \u65f6\u81ea\u52a8\u4e0a\u4f20\n\u62bd\u9009\u6570\u636e: \u67e5\u770b \u7a7a\u5730\u95e8\u724c \u65f6\u81ea\u52a8\u4e0a\u4f20",
-        "Changelog": "- \u4fee\u590d\u4e86\u4fe1\u606f\u88ab\u91cd\u590d\u4e0a\u4f20\u7684\u95ee\u9898\n- \u4fee\u590d\u4e86\u672a\u80fd\u4e0a\u4f20\u62bd\u9009\u7ed3\u679c\u4fe1\u606f\u7684\u95ee\u9898",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "house",
-            "housing",
-            "\u827e\u6b27\u6cfd\u4e9a\u552e\u697c\u4e2d\u5fc3",
-            "\u623f\u5b50",
-            "\u552e\u697c",
-            "\u623f"
-        ],
-        "DalamudApiLevel": 9,
-        "AcceptsFeedback": true,
-        "RepoUrl": "https://github.com/AtmoOmen/HousingChecker",
-        "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/HousingChecker/main/imgs/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.4/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.4/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HousingChecker/releases/download/0.0.0.4/latest.zip"
-    },
-    {
         "Name": "V(ery) Island",
         "InternalName": "visland",
         "AssemblyVersion": "0.0.6.0",
@@ -96,7 +71,6 @@
         "Punchline": "\u884c\u904d\u5343\u91cc",
         "Description": "\u4e0d\u4ec5\u4f1a\u81ea\u52a8\u5bfb\u8def, \u8fd8\u80fd\u81ea\u52a8\u907f\u969c",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 9,
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/ffxiv_navmesh-cn/master/icon2.png",
@@ -107,7 +81,7 @@
     {
         "Name": "GatherBuddy Reborn",
         "InternalName": "GatherbuddyReborn",
-        "AssemblyVersion": "6.58.2.18",
+        "AssemblyVersion": "7.0.2.0",
         "Author": "The Combat Reborn Team, AtmoOmen (\u672c\u5730\u5316\u53ca\u56fd\u670d\u9002\u914d)",
         "Punchline": "GatherBuddy \u81ea\u52a8\u91c7\u96c6\u7248",
         "Description": "GatherBuddy \u81ea\u52a8\u91c7\u96c6\u7248, \u9700\u8981\u5b89\u88c5\u5e76\u542f\u7528 vnavmesh \u7528\u4e8e\u5bfb\u8def",
@@ -121,8 +95,8 @@
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/GatherBuddyReborn",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.18/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/6.58.2.18/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.0.2.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.0.2.0/latest.zip"
     },
     {
         "Name": "Hyperborea",
@@ -132,7 +106,6 @@
         "Punchline": "\u4f60\u8bf4, \u6211\u4eec\u53bb\u964c\u8fea\u7fc1\u7262\u72f1\u91cc\u62cd\u7167\u600e\u4e48\u6837?",
         "Description": "\u5b89\u5168\u5730\u524d\u5f80\u63a2\u7d22\u6e38\u620f\u5185\u7684\u4efb\u4f55\u533a\u57df, \u4e3b\u8981\u7528\u4e8e\u62cd\u7167\n\n\u6c49\u5316\u4e0e\u56fd\u670d\u9002\u914d: AtmoOmen",
         "ApplicableVersion": "any",
-        "DalamudApiLevel": 9,
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/Hyperborea",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/Hyperborea/main/icon.png",
