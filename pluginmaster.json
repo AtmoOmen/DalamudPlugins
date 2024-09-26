@@ -2,30 +2,6 @@
   {
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "0.5.6.0",
-    "TestingAssemblyVersion": "0.5.6.0",
-    "Author": "AtmoOmen",
-    "Punchline": "帮忙解决一些日常重复性劳动",
-    "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来",
-    "Changelog": "请到插件内 设置 页面查阅最新版本的更新日志",
-    "ApplicableVersion": "any",
-    "Tags": [
-      "Daily",
-      "Auto",
-      "日常",
-      "自动"
-    ],
-    "DalamudApiLevel": 9,
-    "AcceptsFeedback": true,
-    "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
-    "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip"
-  },
-  {
-    "Name": "Daily Routines (APIX)",
-    "InternalName": "DailyRoutines",
     "AssemblyVersion": "1.0.13.2",
     "TestingAssemblyVersion": "1.0.13.2",
     "Author": "AtmoOmen",
@@ -43,9 +19,9 @@
     "LoadPriority": 10000,
     "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_apix.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip"
   },
   {
     "Name": "Untarnished Heart",
