@@ -66,7 +66,7 @@
     {
         "Name": "vnavmesh",
         "InternalName": "vnavmesh",
-        "AssemblyVersion": "0.0.4.0",
+        "AssemblyVersion": "0.0.5.0",
         "Author": "veyn, AtmoOmen",
         "Punchline": "\u884c\u904d\u5343\u91cc",
         "Description": "\u4e0d\u4ec5\u4f1a\u81ea\u52a8\u5bfb\u8def, \u8fd8\u80fd\u81ea\u52a8\u907f\u969c",
@@ -74,9 +74,9 @@
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/ffxiv_navmesh-cn/master/icon2.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.4.0/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.4.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.4.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.5.0/latest.zip",
+        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.5.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.5.0/latest.zip"
     },
     {
         "Name": "GatherBuddy Reborn",
