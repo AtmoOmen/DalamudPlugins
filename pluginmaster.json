@@ -49,21 +49,6 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip"
   },
   {
-    "Name": "V(ery) Island",
-    "InternalName": "visland",
-    "AssemblyVersion": "0.0.6.0",
-    "Author": "veyn, AtmoOmen",
-    "Punchline": "自动化无人岛采集作业",
-    "Description": "自动化无人岛采集/工房作业等等\n\n国服适配与汉化: AtmoOmen\n答应我, 别闲鱼买挂了好吗?",
-    "ApplicableVersion": "any",
-    "DalamudApiLevel": 9,
-    "AcceptsFeedback": true,
-    "RepoUrl": "https://github.com/AtmoOmen/ffxiv_visland-cn",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.6.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.6.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_visland-cn/releases/download/0.0.6.0/latest.zip"
-  },
-  {
     "Name": "vnavmesh",
     "InternalName": "vnavmesh",
     "AssemblyVersion": "0.0.5.0",
@@ -101,7 +86,7 @@
   {
     "Name": "Hyperborea",
     "InternalName": "Hyperborea",
-    "AssemblyVersion": "1.0.0.13",
+    "AssemblyVersion": "1.0.0.14",
     "Author": "kawaii, AtmoOmen",
     "Punchline": "你说, 我们去陌迪翁牢狱里拍照怎么样?",
     "Description": "安全地前往探索游戏内的任何区域, 主要用于拍照\n\n汉化与国服适配: AtmoOmen",
@@ -109,8 +94,8 @@
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/AtmoOmen/Hyperborea",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/Hyperborea/main/icon.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.13/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.13/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.13/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.14/latest.zip",
+    "DownloadLinkTesting": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.14/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.14/latest.zip"
   }
 ]
