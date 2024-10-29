@@ -15,6 +15,7 @@
             "\u81ea\u52a8"
         ],
         "DalamudApiLevel": 10,
+        "TestingDalamudApiLevel": 10,
         "AcceptsFeedback": true,
         "LoadPriority": 10000,
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
