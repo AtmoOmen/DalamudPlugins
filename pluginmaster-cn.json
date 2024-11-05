@@ -27,12 +27,10 @@
     {
         "Name": "Untarnished Heart",
         "InternalName": "UntarnishedHeart",
-        "AssemblyVersion": "0.0.5.0",
-        "TestingAssemblyVersion": "0.0.5.0",
+        "AssemblyVersion": "0.0.6.0",
         "Author": "AtmoOmen",
         "Punchline": "\u81ea\u52a8\u5316 T \u804c\u526f\u672c\u573a\u6b21\u6210\u5c31\u5237\u53d6\u5de5\u5177",
         "Description": "\u81ea\u52a8\u5316 T \u804c\u526f\u672c\u573a\u6b21\u6210\u5c31\u5237\u53d6\u5de5\u5177\n\u6ce8\u610f: \u526f\u672c\u6218\u6597\u9700\u8981\u81ea\u884c\u4f7f\u7528\u5176\u4ed6\u63d2\u4ef6\u89e3\u51b3",
-        "Changelog": "- \u521d\u7248\u53d1\u5e03",
         "ApplicableVersion": "any",
         "Tags": [
             "\u81ea\u52a8",
@@ -45,9 +43,8 @@
         "AcceptsFeedback": true,
         "IconUrl": "https://gh.atmoomen.top/https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.0.6.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.0.6.0/latest.zip"
     },
     {
         "Name": "vnavmesh",
@@ -61,7 +58,6 @@
         "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/ffxiv_navmesh-cn/master/icon2.png",
         "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.6.0/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.6.0/latest.zip",
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.6.0/latest.zip"
     },
     {
@@ -96,7 +92,6 @@
         "RepoUrl": "https://github.com/AtmoOmen/Hyperborea",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/Hyperborea/main/icon.png",
         "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.15/latest.zip",
-        "DownloadLinkTesting": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.15/latest.zip",
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.15/latest.zip"
     }
 ]
