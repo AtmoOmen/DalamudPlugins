@@ -27,12 +27,10 @@
   {
     "Name": "Untarnished Heart",
     "InternalName": "UntarnishedHeart",
-    "AssemblyVersion": "0.0.5.0",
-    "TestingAssemblyVersion": "0.0.5.0",
+    "AssemblyVersion": "0.0.6.0",
     "Author": "AtmoOmen",
     "Punchline": "自动化 T 职副本场次成就刷取工具",
     "Description": "自动化 T 职副本场次成就刷取工具\n注意: 副本战斗需要自行使用其他插件解决",
-    "Changelog": "- 初版发布",
     "ApplicableVersion": "any",
     "Tags": [
       "自动",
@@ -45,9 +43,8 @@
     "AcceptsFeedback": true,
     "IconUrl": "https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
     "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/UntarnishedHeart/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.0.6.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.0.6.0/latest.zip"
   },
   {
     "Name": "vnavmesh",
@@ -61,7 +58,6 @@
     "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/ffxiv_navmesh-cn/master/icon2.png",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.6.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.6.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.6.0/latest.zip"
   },
   {
@@ -96,7 +92,6 @@
     "RepoUrl": "https://github.com/AtmoOmen/Hyperborea",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/Hyperborea/main/icon.png",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.15/latest.zip",
-    "DownloadLinkTesting": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.15/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.15/latest.zip"
   }
 ]
