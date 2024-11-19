@@ -2,7 +2,7 @@
     {
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "1.2.2.0",
+        "AssemblyVersion": "1.2.3.0",
         "TestingAssemblyVersion": "1.1.9.8",
         "Author": "AtmoOmen",
         "Punchline": "\u5e2e\u5fd9\u89e3\u51b3\u4e00\u4e9b\u65e5\u5e38\u91cd\u590d\u6027\u52b3\u52a8 / Help with some of the daily repetitive tasks",
@@ -27,7 +27,7 @@
     {
         "Name": "Daily Routines (API 11)",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "1.2.2.0",
+        "AssemblyVersion": "1.2.3.0",
         "TestingAssemblyVersion": "1.1.9.8",
         "Author": "AtmoOmen",
         "Punchline": "\u5e2e\u5fd9\u89e3\u51b3\u4e00\u4e9b\u65e5\u5e38\u91cd\u590d\u6027\u52b3\u52a8 / Help with some of the daily repetitive tasks",
