@@ -49,7 +49,7 @@
     {
         "Name": "Untarnished Heart",
         "InternalName": "UntarnishedHeart",
-        "AssemblyVersion": "0.0.7.0",
+        "AssemblyVersion": "0.0.8.0",
         "Author": "AtmoOmen",
         "Punchline": "\u81ea\u52a8\u5316 T \u804c\u526f\u672c\u573a\u6b21\u6210\u5c31\u5237\u53d6\u5de5\u5177",
         "Description": "\u81ea\u52a8\u5316 T \u804c\u526f\u672c\u573a\u6b21\u6210\u5c31\u5237\u53d6\u5de5\u5177\n\u6ce8\u610f: \u526f\u672c\u6218\u6597\u9700\u8981\u81ea\u884c\u4f7f\u7528\u5176\u4ed6\u63d2\u4ef6\u89e3\u51b3",
@@ -65,8 +65,8 @@
         "AcceptsFeedback": true,
         "IconUrl": "https://gh.atmoomen.top/https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.0.7.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.0.7.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.0.8.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.0.8.0/latest.zip"
     },
     {
         "Name": "vnavmesh",
