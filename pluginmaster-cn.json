@@ -27,7 +27,7 @@
     {
         "Name": "Daily Routines (API 11)",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "1.2.9.0",
+        "AssemblyVersion": "1.2.9.1",
         "Author": "AtmoOmen",
         "Punchline": "\u5e2e\u5fd9\u89e3\u51b3\u4e00\u4e9b\u65e5\u5e38\u91cd\u590d\u6027\u52b3\u52a8 / Help with some of the daily repetitive tasks",
         "Description": "\u8f7b\u91cf\u5316\u3001\u4f4e\u6027\u80fd\u6d88\u8017\u3001\u7b80\u5355\u7684\u81ea\u52a8\u5316\u529f\u80fd/\u6613\u7528\u6027\u6539\u52a8\u5408\u96c6, \u5e2e\u4f60\u4ece\u4e00\u4e9b\u65e0\u610f\u4e49\u7684\u91cd\u590d\u6027\u5de5\u4f5c\u4e2d\u89e3\u653e\u51fa\u6765\nA collection of lightweight, simple automation features/easy-to-use modules to free you from meaningless repetitive tasks.",
