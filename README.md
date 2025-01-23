@@ -19,10 +19,7 @@ https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 
 **Daily Routines Discord:**
 
-```
-https://discord.gg/MDvv8Ejntw
-```
-
+[![image](https://discordapp.com/api/guilds/1258981591124938762/embed.png?style=banner2)](https://discord.gg/dailyroutines)
 
 
 ## 仓库插件列表
