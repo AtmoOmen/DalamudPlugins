@@ -39,7 +39,7 @@
       "成就",
       "心之长明"
     ],
-    "DalamudApiLevel": 10,
+    "DalamudApiLevel": 11,
     "AcceptsFeedback": true,
     "IconUrl": "https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
     "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
@@ -49,16 +49,17 @@
   {
     "Name": "vnavmesh",
     "InternalName": "vnavmesh",
-    "AssemblyVersion": "0.0.6.0",
+    "AssemblyVersion": "0.0.7.0",
     "Author": "veyn, AtmoOmen",
     "Punchline": "行遍千里",
     "Description": "不仅会自动寻路, 还能自动避障",
     "ApplicableVersion": "any",
     "AcceptsFeedback": true,
+    "DalamudApiLevel": 11,
     "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/ffxiv_navmesh-cn/master/icon2.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.6.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.6.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.7.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.0.7.0/latest.zip"
   },
   {
     "Name": "GatherBuddy Reborn",
