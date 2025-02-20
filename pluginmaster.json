@@ -96,5 +96,35 @@
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/Hyperborea/main/icon.png",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.17/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.17/latest.zip"
+  },
+  {
+    "Name": "Currency Tracker",
+    "InternalName": "CurrencyTracker",
+    "AssemblyVersion": "1.6.0.0",
+    "Author": "AtmoOmen",
+    "Punchline": "记录你全部的货币收支情况 / Track all your currecies",
+    "Description": "记录你每一笔货币收支的数额、时间、地点与来源\nTrack every change of your currecies with its Amount, Time, Location and Source",
+    "ApplicableVersion": "any",
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 11,
+    "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
+    "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1-CP.png",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.0.0/latest.zip"
+  },
+  {
+    "Name": "VFXEditorCN",
+    "InternalName": "VFXEditorCN",
+    "AssemblyVersion": "1.9.1.5",
+    "Author": "AtmoOmen",
+    "Punchline": "VFX 编辑器、查看器 (中文汉化版)",
+    "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化维护: AtmoOmen",
+    "ApplicableVersion": "any",
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 11,
+    "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CN",
+    "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/VFXEditor-CN/main/assets/icon.png",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.1.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.1.5/latest.zip"
   }
 ]
