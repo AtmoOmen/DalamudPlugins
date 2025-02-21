@@ -126,5 +126,20 @@
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/VFXEditor-CN/main/assets/icon.png",
         "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.1.5/latest.zip",
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.1.5/latest.zip"
+    },
+    {
+        "Name": "Character Data Sync X",
+        "InternalName": "Dalamud.CharacterSyncX",
+        "AssemblyVersion": "2.1.0.0",
+        "Author": "goat, AtmoOmen (\u91cd\u5199)",
+        "Punchline": "\u7528\u4f60\u7684\u4e3b\u89d2\u8272\u8bbe\u7f6e\u6570\u636e\u6e38\u73a9\u6240\u6709\u89d2\u8272~",
+        "Description": "\u5728\u63d2\u4ef6\u8bbe\u7f6e\u754c\u9762\u9009\u62e9\u597d\u4e3b\u89d2\u8272\u540e, \u81ea\u52a8\u540c\u6b65\u4f60\u4e3b\u89d2\u8272\u6e38\u620f\u8bbe\u7f6e\u6570\u636e\u81f3\u6240\u6709\u89d2\u8272\u4e0a\n\u76f8\u6bd4\u539f\u7248: \u91cd\u5199\u4e86\u754c\u9762, \u63d0\u4f9b\u4e86\u660e\u786e\u7684\u4e3b\u89d2\u8272\u8bbe\u7f6e, \u4e0d\u4f1a\u518d\u52a8\u4f60\u7684\u539f\u59cb\u6570\u636e\u6587\u4ef6, \u800c\u662f\u628a\u975e\u4e3b\u89d2\u8272\u7684\u6587\u4ef6\u8bfb\u53d6\u91cd\u5b9a\u5411\u81f3\u4e3b\u89d2\u8272",
+        "ApplicableVersion": "any",
+        "AcceptsFeedback": true,
+        "DalamudApiLevel": 11,
+        "RepoUrl": "https://github.com/AtmoOmen/Dalamud.CharacterSync",
+        "IconUrl": "https://gh.atmoomen.top/https://github.com/goaaats/Dalamud.CharacterSync/raw/master/res/icon.png",
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.0.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.0.0/latest.zip"
     }
 ]
