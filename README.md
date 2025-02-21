@@ -33,4 +33,5 @@ https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 | [GatherBuddyReborn](https://github.com/AtmoOmen/GatherBuddyReborn) | [Ottermandias](https://github.com/Ottermandias)， [CombatReborn](https://github.com/FFXIV-CombatReborn) | 7.1 | Gather Buddy 自动采集版 | 适配国服, 部分汉化 |
 | [Currency Tracker](https://github.com/AtmoOmen/CurrencyTracker) | [AtmoOmen](https://github.com/AtmoOmen) | 7.1 | 记录你各种的货币收支情况 | **个人编写** |
 | [VFXEditorCN](https://github.com/AtmoOmen/VFXEditor-CN) | [ocealot](https://github.com/0ceal0t) | 7.1 | 游戏内视觉效果、动画与音频编辑插件 | 适配国服, 基本完全汉化 |
+| [Character Data Sync X](https://github.com/AtmoOmen/Dalamud.CharacterSync) | [goat](https://github.com/goaaats), [AtmoOmen](https://github.com/AtmoOmen) | 7.1 | 将你的主角色数据安全地同步到其他角色上 | 基于主库完全重写, 完全汉化 |
 
