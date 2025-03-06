@@ -128,6 +128,20 @@
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.1.5/latest.zip"
   },
   {
+    "Name": "HaselDebug",
+    "InternalName": "HaselDebug",
+    "AssemblyVersion": "1.18.1.0",
+    "Author": "Haselnussbomber",
+    "Punchline": "多功能开发用工具箱",
+    "Description": "开发者专用",
+    "ApplicableVersion": "any",
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 11,
+    "RepoUrl": "https://github.com/AtmoOmen/HaselDebug",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.18.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.18.1/latest.zip"
+  },
+  {
     "Name": "Character Data Sync X",
     "InternalName": "Dalamud.CharacterSyncX",
     "AssemblyVersion": "2.1.0.0",
