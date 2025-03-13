@@ -35,4 +35,5 @@ https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 | [VFXEditorCN](https://github.com/AtmoOmen/VFXEditor-CN) | [ocealot](https://github.com/0ceal0t) | 7.1 | 游戏内视觉效果、动画与音频编辑插件 | 适配国服, 基本完全汉化 |
 | [Character Data Sync X](https://github.com/AtmoOmen/Dalamud.CharacterSync) | [goat](https://github.com/goaaats), [AtmoOmen](https://github.com/AtmoOmen) | 7.1 | 将你的主角色数据安全地同步到其他角色上 | 基于主库完全重写, 完全汉化 |
 | [HaselDebug](https://github.com/AtmoOmen/HaselDebug) | [Haselnussbomber](https://github.com/Haselnussbomber) | 7.1 | 多功能开发用工具箱 | 适配国服 |
+| [XIVJitterFix](https://github.com/AtmoOmen/XIVJitterFix) | [rootdarkarchon](https://github.com/rootdarkarchon) | 7.1 | 游戏抗锯齿效果修复优化 | 适配国服, 完全汉化 |
 
