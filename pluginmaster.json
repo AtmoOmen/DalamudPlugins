@@ -169,5 +169,20 @@
     "IconUrl": "https://github.com/goaaats/Dalamud.CharacterSync/raw/master/res/icon.png",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.0.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.0.0/latest.zip"
+  },
+  {
+    "Name": "A Realm Recorded Lite",
+    "InternalName": "ARealmRecordedLite",
+    "AssemblyVersion": "1.0.0.0",
+    "Author": "UnknownX, AtmoOmen",
+    "Punchline": "A Realm Recorded 精简版\n相比原版: 四分之一的体积、更低的待机消耗、全匿名化的录像处理",
+    "Description": "使用 /record 指令打开配置界面\n如显示相关指令未解锁, 请去摩杜纳第七天堂找异国的诗人完成任务「回顾英雄诗篇」",
+    "ApplicableVersion": "any",
+    "AcceptsFeedback": true,
+    "DalamudApiLevel": 11,
+    "RepoUrl": "https://github.com/AtmoOmen/ARealmRecordedLite",
+    "IconUrl": "https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ARealmRecorded/images/icon.png",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.0.0/latest.zip"
   }
 ]
