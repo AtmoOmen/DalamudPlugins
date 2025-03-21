@@ -173,16 +173,16 @@
     {
         "Name": "A Realm Recorded Lite",
         "InternalName": "ARealmRecordedLite",
-        "AssemblyVersion": "1.0.0.0",
+        "AssemblyVersion": "1.0.1.0",
         "Author": "UnknownX, AtmoOmen",
-        "Punchline": "A Realm Recorded \u7cbe\u7b80\u7248\n\u76f8\u6bd4\u539f\u7248: \u56db\u5206\u4e4b\u4e00\u7684\u4f53\u79ef\u3001\u66f4\u4f4e\u7684\u5f85\u673a\u6d88\u8017\u3001\u5168\u533f\u540d\u5316\u7684\u5f55\u50cf\u5904\u7406",
+        "Punchline": "A Realm Recorded \u7cbe\u7b80\u7248\n\u76f8\u6bd4\u539f\u7248: \u56db\u5206\u4e4b\u4e00\u7684\u4f53\u79ef\u3001\u66f4\u4f4e\u7684\u5f85\u673a\u6d88\u8017\u3001\u5168\u533f\u540d\u5316\u7684\u5f55\u50cf\u5904\u7406\u3001\u5168\u526f\u672c\u53ef\u5f55\u50cf",
         "Description": "\u4f7f\u7528 /record \u6307\u4ee4\u6253\u5f00\u914d\u7f6e\u754c\u9762\n\u5982\u663e\u793a\u76f8\u5173\u6307\u4ee4\u672a\u89e3\u9501, \u8bf7\u53bb\u6469\u675c\u7eb3\u7b2c\u4e03\u5929\u5802\u627e\u5f02\u56fd\u7684\u8bd7\u4eba\u5b8c\u6210\u4efb\u52a1\u300c\u56de\u987e\u82f1\u96c4\u8bd7\u7bc7\u300d",
         "ApplicableVersion": "any",
         "AcceptsFeedback": true,
         "DalamudApiLevel": 11,
         "RepoUrl": "https://github.com/AtmoOmen/ARealmRecordedLite",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ARealmRecorded/images/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.0.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.1.0/latest.zip"
     }
 ]
