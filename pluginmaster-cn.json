@@ -86,7 +86,7 @@
     {
         "Name": "GatherBuddy Reborn",
         "InternalName": "GatherbuddyReborn",
-        "AssemblyVersion": "7.1.0.0",
+        "AssemblyVersion": "7.1.0.1",
         "Author": "The Combat Reborn Team, AtmoOmen (\u672c\u5730\u5316\u53ca\u56fd\u670d\u9002\u914d)",
         "Punchline": "GatherBuddy \u81ea\u52a8\u91c7\u96c6\u7248",
         "Description": "GatherBuddy \u81ea\u52a8\u91c7\u96c6\u7248, \u9700\u8981\u5b89\u88c5\u5e76\u542f\u7528 vnavmesh \u7528\u4e8e\u5bfb\u8def",
@@ -101,8 +101,8 @@
         "DalamudApiLevel": 11,
         "RepoUrl": "https://github.com/AtmoOmen/GatherBuddyReborn",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.1.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.1.0.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.1.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.1.0.1/latest.zip"
     },
     {
         "Name": "Hyperborea",
