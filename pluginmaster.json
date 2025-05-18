@@ -71,7 +71,7 @@
   {
     "Name": "vnavmesh",
     "InternalName": "vnavmesh",
-    "AssemblyVersion": "0.1.5.0",
+    "AssemblyVersion": "0.1.6.0",
     "Author": "veyn, AtmoOmen",
     "Punchline": "行遍千里",
     "Description": "不仅会自动寻路, 还能自动避障",
