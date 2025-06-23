@@ -27,7 +27,7 @@
     {
         "Name": "Untarnished Heart",
         "InternalName": "UntarnishedHeart",
-        "AssemblyVersion": "0.2.0.0",
+        "AssemblyVersion": "0.2.1.0",
         "Author": "AtmoOmen",
         "Punchline": "自动化 T 职副本场次成就刷取工具",
         "Description": "自动化 T 职副本场次成就刷取工具\n注意: 副本战斗需要自行使用其他插件解决",
@@ -39,27 +39,27 @@
             "成就",
             "心之长明"
         ],
-        "DalamudApiLevel": 11,
+        "DalamudApiLevel": 12,
         "AcceptsFeedback": true,
         "IconUrl": "https://gh.atmoomen.top/https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.2.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.2.0.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.2.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.2.1.0/latest.zip"
     },
     {
         "Name": "vnavmesh",
         "InternalName": "vnavmesh",
-        "AssemblyVersion": "0.1.8.0",
+        "AssemblyVersion": "0.1.9.0",
         "Author": "veyn, AtmoOmen",
         "Punchline": "行遍千里",
         "Description": "不仅会自动寻路, 还能自动避障",
         "ApplicableVersion": "any",
         "AcceptsFeedback": true,
-        "DalamudApiLevel": 11,
+        "DalamudApiLevel": 12,
         "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/ffxiv_navmesh-cn/master/icon2.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.1.8.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.1.8.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.1.9.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.1.9.0/latest.zip"
     },
     {
         "Name": "GatherBuddy Reborn",
@@ -85,17 +85,17 @@
     {
         "Name": "Hyperborea",
         "InternalName": "Hyperborea",
-        "AssemblyVersion": "1.0.0.17",
+        "AssemblyVersion": "1.0.0.20",
         "Author": "kawaii, AtmoOmen (汉化)",
         "Punchline": "你说, 我们去陌迪翁牢狱里拍照怎么样?",
         "Description": "安全地前往探索游戏内的任何区域, 主要用于拍照\n\n汉化与国服适配: AtmoOmen",
         "ApplicableVersion": "any",
         "AcceptsFeedback": true,
-        "DalamudApiLevel": 11,
+        "DalamudApiLevel": 12,
         "RepoUrl": "https://github.com/AtmoOmen/Hyperborea",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/Hyperborea/main/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.17/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.17/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.20/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Hyperborea/releases/download/1.0.0.20/latest.zip"
     },
     {
         "Name": "Currency Tracker",
@@ -142,47 +142,33 @@
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/HaselDebug/releases/download/1.18.1/latest.zip"
     },
     {
-        "Name": "XIVJitterFix",
-        "InternalName": "XIVJitterFix",
-        "AssemblyVersion": "0.0.0.5",
-        "Author": "darkarchon, AtmoOmen (汉化)",
-        "Punchline": "修复 SE 给 FF14 弄的糟糕抗锯齿效果~",
-        "Description": "随着7.0版本更新，SE 虽然为 FF14 引入了多种时间性抗锯齿方案，但均存在严重影响画质的重大缺陷。\n本插件将修复NPC对话、过场动画及 GPose 模式下的画面抖动功能。作为时间性抗锯齿技术（DLSS/DLAA/TSCMAA+抖动）的核心机制，相机抖动（即难以察觉的细微位移）是确保抗锯齿效果正常运作的必要条件。\n令人费解的是，SE官方竟在恰恰最需要抖动提升画质的场景中禁用了该功能。",
-        "ApplicableVersion": "any",
-        "AcceptsFeedback": true,
-        "DalamudApiLevel": 11,
-        "RepoUrl": "https://github.com/AtmoOmen/XIVJitterFix",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/XIVJitterFix/releases/download/0.0.0.5/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/XIVJitterFix/releases/download/0.0.0.5/latest.zip"
-    },
-    {
         "Name": "Character Data Sync X",
         "InternalName": "Dalamud.CharacterSyncX",
-        "AssemblyVersion": "2.1.0.0",
+        "AssemblyVersion": "2.1.1.0",
         "Author": "goat, AtmoOmen (重写)",
         "Punchline": "用你的主角色设置数据游玩所有角色~",
         "Description": "在插件设置界面选择好主角色后, 自动同步你主角色游戏设置数据至所有角色上\n相比原版: 重写了界面, 提供了明确的主角色设置, 不会再动你的原始数据文件, 而是把非主角色的文件读取重定向至主角色",
         "ApplicableVersion": "any",
         "AcceptsFeedback": true,
-        "DalamudApiLevel": 11,
+        "DalamudApiLevel": 12,
         "RepoUrl": "https://github.com/AtmoOmen/Dalamud.CharacterSync",
         "IconUrl": "https://gh.atmoomen.top/https://github.com/goaaats/Dalamud.CharacterSync/raw/master/res/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.0.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.1.0/latest.zip"
     },
     {
         "Name": "A Realm Recorded Lite",
         "InternalName": "ARealmRecordedLite",
-        "AssemblyVersion": "1.0.1.0",
+        "AssemblyVersion": "1.0.2.0",
         "Author": "UnknownX, AtmoOmen",
         "Punchline": "A Realm Recorded 精简版\n相比原版: 四分之一的体积、更低的待机消耗、全匿名化的录像处理、全副本可录像",
         "Description": "使用 /record 指令打开配置界面\n如显示相关指令未解锁, 请去摩杜纳第七天堂找异国的诗人完成任务「回顾英雄诗篇」",
         "ApplicableVersion": "any",
         "AcceptsFeedback": true,
-        "DalamudApiLevel": 11,
+        "DalamudApiLevel": 12,
         "RepoUrl": "https://github.com/AtmoOmen/ARealmRecordedLite",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ARealmRecorded/images/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.1.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.1.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.2.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.2.0/latest.zip"
     }
 ]
