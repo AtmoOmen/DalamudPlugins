@@ -130,7 +130,7 @@
   {
     "Name": "HaselDebug",
     "InternalName": "HaselDebug",
-    "AssemblyVersion": "1.18.1.0",
+    "AssemblyVersion": "1.28.0.0",
     "Author": "Haselnussbomber",
     "Punchline": "多功能开发用工具箱",
     "Description": "开发者专用",
@@ -138,8 +138,8 @@
     "AcceptsFeedback": true,
     "DalamudApiLevel": 11,
     "RepoUrl": "https://github.com/AtmoOmen/HaselDebug",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.18.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.18.1/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.28.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.28.0.0/latest.zip"
   },
   {
     "Name": "Character Data Sync X",
