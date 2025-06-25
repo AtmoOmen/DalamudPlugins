@@ -46,6 +46,26 @@
     "DownloadLinkInstall": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.2.1.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.2.1.0/latest.zip"
   },
+   {
+    "Name": "Raphael.Dalamud",
+    "InternalName": "Raphael.Dalamud",
+    "AssemblyVersion": "0.0.1.0",
+    "Author": "Raphael",
+    "Punchline": "Dalamud Wrapper for Craft Solver Raphael / 生产求解器 Raphael 的 Dalamud 包装",
+    "Description": "Dalamud Wrapper for Craft Solver Raphael / 生产求解器 Raphael 的 Dalamud 包装\nMainly used to provide IPC for other Dalamud plugins / 主要用于提供 IPC 给其他 Dalamud 插件调用",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "Raphael",
+      "Craft",
+      "生产"
+    ],
+    "DalamudApiLevel": 12,
+    "AcceptsFeedback": true,
+    "IconUrl": "https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
+    "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
+    "DownloadLinkInstall": "https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.1.0/latest.zip"
+  },
   {
     "Name": "vnavmesh",
     "InternalName": "vnavmesh",
