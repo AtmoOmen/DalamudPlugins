@@ -61,7 +61,6 @@
     ],
     "DalamudApiLevel": 12,
     "AcceptsFeedback": true,
-    "IconUrl": "https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
     "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
     "DownloadLinkInstall": "https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.1.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.1.0/latest.zip"
