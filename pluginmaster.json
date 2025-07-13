@@ -134,31 +134,31 @@
   {
     "Name": "VFXEditorCN",
     "InternalName": "VFXEditorCN",
-    "AssemblyVersion": "1.9.1.5",
+    "AssemblyVersion": "1.9.2.5",
     "Author": "ocealot, AtmoOmen (汉化)",
     "Punchline": "VFX 编辑器、查看器 (中文汉化版)",
     "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化维护: AtmoOmen",
     "ApplicableVersion": "any",
     "AcceptsFeedback": true,
-    "DalamudApiLevel": 11,
+    "DalamudApiLevel": 12,
     "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CN",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/VFXEditor-CN/main/assets/icon.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.1.5/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.1.5/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.2.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.2.5/latest.zip"
   },
   {
     "Name": "HaselDebug",
     "InternalName": "HaselDebug",
-    "AssemblyVersion": "1.28.0.0",
+    "AssemblyVersion": "1.29.0.0",
     "Author": "Haselnussbomber",
     "Punchline": "多功能开发用工具箱",
     "Description": "开发者专用",
     "ApplicableVersion": "any",
     "AcceptsFeedback": true,
-    "DalamudApiLevel": 11,
+    "DalamudApiLevel": 12,
     "RepoUrl": "https://github.com/AtmoOmen/HaselDebug",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.28.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.28.0.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.29.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/HaselDebug/releases/download/1.29.0/latest.zip"
   },
   {
     "Name": "Character Data Sync X",
