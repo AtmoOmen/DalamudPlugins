@@ -25,6 +25,28 @@
         "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest.zip"
     },
     {
+        "Name": "Daily Routines (API 13)",
+        "InternalName": "DailyRoutines",
+        "AssemblyVersion": "1.7.5.2",
+        "Author": "AtmoOmen",
+        "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
+        "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\nA collection of lightweight, simple automation features/easy-to-use modules to free you from meaningless repetitive tasks.",
+        "ApplicableVersion": "any",
+        "LoadPriority": 10000,
+        "Tags": [
+            "Daily",
+            "Auto",
+            "日常",
+            "自动"
+        ],
+        "DalamudApiLevel": 13,
+        "AcceptsFeedback": true,
+        "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
+        "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_api13.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/Plugins/DailyRoutines/latest_api13.zip"
+    },
+    {
         "Name": "Untarnished Heart",
         "InternalName": "UntarnishedHeart",
         "AssemblyVersion": "0.2.1.0",
