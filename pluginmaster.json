@@ -3,7 +3,7 @@
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
     "AssemblyVersion": "1.7.7.0",
-    "TestingAssemblyVersion": "1.7.7.1",
+    "TestingAssemblyVersion": "1.7.7.2",
     "Author": "AtmoOmen",
     "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
     "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\nA collection of lightweight, simple automation features/easy-to-use modules to free you from meaningless repetitive tasks.",
