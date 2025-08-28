@@ -90,7 +90,7 @@
   {
     "Name": "vnavmesh",
     "InternalName": "vnavmesh",
-    "AssemblyVersion": "0.1.9.0",
+    "AssemblyVersion": "0.2.0.0",
     "Author": "veyn, AtmoOmen",
     "Punchline": "行遍千里",
     "Description": "不仅会自动寻路, 还能自动避障",
@@ -99,8 +99,8 @@
     "DalamudApiLevel": 12,
     "RepoUrl": "https://github.com/AtmoOmen/ffxiv_navmesh-cn",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/ffxiv_navmesh-cn/master/icon2.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.1.9.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.1.9.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.2.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/ffxiv_navmesh-cn/releases/download/0.2.0.0/latest.zip"
   },
   {
     "Name": "GatherBuddy Reborn",
