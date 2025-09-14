@@ -141,17 +141,17 @@
     {
         "Name": "VFXEditorCN",
         "InternalName": "VFXEditorCN",
-        "AssemblyVersion": "1.9.2.5",
+        "AssemblyVersion": "1.9.3.0",
         "Author": "ocealot, AtmoOmen (汉化)",
         "Punchline": "VFX 编辑器、查看器 (中文汉化版)",
         "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化维护: AtmoOmen",
         "ApplicableVersion": "any",
         "AcceptsFeedback": true,
-        "DalamudApiLevel": 12,
+        "DalamudApiLevel": 13,
         "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CN",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/AtmoOmen/VFXEditor-CN/main/assets/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.2.5/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.2.5/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.3.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/VFXEditor-CN/releases/download/1.9.3.0/latest.zip"
     },
     {
         "Name": "HaselDebug",
