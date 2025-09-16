@@ -49,7 +49,7 @@
     {
         "Name": "Raphael.Dalamud",
         "InternalName": "Raphael.Dalamud",
-        "AssemblyVersion": "0.0.4.0",
+        "AssemblyVersion": "0.0.5.0",
         "Author": "Raphael",
         "Punchline": "Dalamud Wrapper for Craft Solver Raphael / 生产求解器 Raphael 的 Dalamud 包装",
         "Description": "Dalamud Wrapper for Craft Solver Raphael / 生产求解器 Raphael 的 Dalamud 包装\nMainly used to provide IPC for other Dalamud plugins / 主要用于提供 IPC 给其他 Dalamud 插件调用",
@@ -62,8 +62,8 @@
         "DalamudApiLevel": 13,
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.4.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.4.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.5.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.5.0/latest.zip"
     },
     {
         "Name": "vnavmesh",
