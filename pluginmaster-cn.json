@@ -2,7 +2,7 @@
     {
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "1.8.4.0",
+        "AssemblyVersion": "1.8.4.1",
         "TestingAssemblyVersion": "1.8.3.2",
         "Author": "AtmoOmen",
         "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
@@ -15,7 +15,7 @@
             "日常",
             "自动"
         ],
-        "DalamudApiLevel": 12,
+        "DalamudApiLevel": 13,
         "TestingDalamudApiLevel": 12,
         "AcceptsFeedback": true,
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
