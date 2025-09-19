@@ -83,7 +83,7 @@
     {
         "Name": "GatherBuddy Reborn",
         "InternalName": "GatherbuddyReborn",
-        "AssemblyVersion": "7.3.0.0",
+        "AssemblyVersion": "7.3.0.1",
         "Author": "The Combat Reborn Team, AtmoOmen (本地化及国服适配)",
         "Punchline": "GatherBuddy 自动采集版",
         "Description": "GatherBuddy 自动采集版, 需要安装并启用 vnavmesh 用于寻路",
@@ -98,8 +98,8 @@
         "DalamudApiLevel": 13,
         "RepoUrl": "https://github.com/AtmoOmen/GatherBuddyReborn",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.3.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.3.0.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.3.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.3.0.1/latest.zip"
     },
     {
         "Name": "Currency Tracker",
