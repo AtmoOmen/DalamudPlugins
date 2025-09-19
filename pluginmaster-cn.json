@@ -163,7 +163,7 @@
     {
         "Name": "A Realm Recorded Lite",
         "InternalName": "ARealmRecordedLite",
-        "AssemblyVersion": "1.0.3.1",
+        "AssemblyVersion": "1.0.3.2",
         "Author": "UnknownX, AtmoOmen",
         "Punchline": "A Realm Recorded 精简版\n相比原版: 四分之一的体积、更低的待机消耗、全匿名化的录像处理、全副本可录像",
         "Description": "使用 /record 指令打开配置界面\n如显示相关指令未解锁, 请去摩杜纳第七天堂找异国的诗人完成任务「回顾英雄诗篇」",
@@ -172,8 +172,8 @@
         "DalamudApiLevel": 13,
         "RepoUrl": "https://github.com/AtmoOmen/ARealmRecordedLite",
         "IconUrl": "https://gh.atmoomen.top/https://raw.githubusercontent.com/Dalamud-DailyRoutines/PluginDistD17/main/stable/ARealmRecorded/images/icon.png",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.3.1/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.3.1/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.3.2/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/ARealmRecordedLite/releases/download/1.0.3.2/latest.zip"
     },
     {
         "Name": "DCTravelerX",
