@@ -2,7 +2,7 @@
     {
         "Name": "Daily Routines",
         "InternalName": "DailyRoutines",
-        "AssemblyVersion": "1.8.6.6",
+        "AssemblyVersion": "1.8.7.0",
         "TestingAssemblyVersion": "1.8.6.9",
         "Author": "AtmoOmen",
         "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
