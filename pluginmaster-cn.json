@@ -27,7 +27,7 @@
     {
         "Name": "Untarnished Heart",
         "InternalName": "UntarnishedHeart",
-        "AssemblyVersion": "0.3.0.0",
+        "AssemblyVersion": "0.3.1.0",
         "Author": "AtmoOmen",
         "Punchline": "自动化 T 职副本场次成就刷取工具",
         "Description": "自动化 T 职副本场次成就刷取工具\n注意: 副本战斗需要自行使用其他插件解决",
@@ -43,8 +43,8 @@
         "AcceptsFeedback": true,
         "IconUrl": "https://gh.atmoomen.top/https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
         "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
-        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.0.0/latest.zip"
+        "DownloadLinkInstall": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://gh.atmoomen.top/https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.1.0/latest.zip"
     },
     {
         "Name": "Raphael.Dalamud",
