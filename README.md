@@ -8,7 +8,7 @@ Dalamud Plugin Repo Maintained by AtmoOmen
 **加速链接 / Link For Chinese Mainland:**
 
 ```
-https://gh.atmoomen.top/DalamudPlugins/main/pluginmaster-cn.json
+https://gh.atmoomen.top/DalamudPlugins/main/pluginmaster.json
 ```
 
 **原始链接 / Original Link:**
