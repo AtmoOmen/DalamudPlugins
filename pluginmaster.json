@@ -2,7 +2,7 @@
   {
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "1.9.4.1",
+    "AssemblyVersion": "1.9.4.2",
     "TestingAssemblyVersion": "1.9.2.3",
     "Author": "AtmoOmen",
     "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
@@ -20,8 +20,8 @@
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.4.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.4.1/latest.zip",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.4.2/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.4.2/latest.zip",
     "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.2.3/latest.zip"
   },
   {
