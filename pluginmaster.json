@@ -170,17 +170,17 @@
   {
     "Name": "Character Data Sync X",
     "InternalName": "Dalamud.CharacterSyncX",
-    "AssemblyVersion": "2.1.2.0",
+    "AssemblyVersion": "2.1.3.0",
     "Author": "goat, AtmoOmen (重写)",
     "Punchline": "用你的主角色设置数据游玩所有角色~",
     "Description": "在插件设置界面选择好主角色后, 自动同步你主角色游戏设置数据至所有角色上\n相比原版: 重写了界面, 提供了明确的主角色设置, 不会再动你的原始数据文件, 而是把非主角色的文件读取重定向至主角色",
     "ApplicableVersion": "any",
     "AcceptsFeedback": true,
-    "DalamudApiLevel": 13,
+    "DalamudApiLevel": 14,
     "RepoUrl": "https://github.com/AtmoOmen/Dalamud.CharacterSync",
     "IconUrl": "https://github.com/goaaats/Dalamud.CharacterSync/raw/master/res/icon.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.2.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.2.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.3.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/Dalamud.CharacterSync/releases/download/2.1.3.0/latest.zip"
   },
   {
     "Name": "A Realm Recorded Lite",
