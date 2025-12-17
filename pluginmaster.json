@@ -25,6 +25,28 @@
     "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.2.3/latest.zip"
   },
   {
+    "Name": "Daily Routines (API 13)",
+    "InternalName": "DailyRoutines",
+    "AssemblyVersion": "1.9.3.3",
+    "Author": "AtmoOmen",
+    "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
+    "Description": "轻量化、低性能消耗、简单的自动化功能/易用性改动合集, 帮你从一些无意义的重复性工作中解放出来\nA collection of lightweight, simple automation features/easy-to-use modules to free you from meaningless repetitive tasks.",
+    "ApplicableVersion": "any",
+    "LoadPriority": 10000,
+    "Tags": [
+      "Daily",
+      "Auto",
+      "日常",
+      "自动"
+    ],
+    "DalamudApiLevel": 13,
+    "AcceptsFeedback": true,
+    "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
+    "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.3.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.3.3/latest.zip"
+  },
+  {
     "Name": "Daily Routines (API 12)",
     "InternalName": "DailyRoutines",
     "AssemblyVersion": "1.8.3.4",
@@ -200,7 +222,7 @@
   {
     "Name": "DCTravelerX",
     "InternalName": "DCTravelerX",
-    "AssemblyVersion": "0.2.1.0",
+    "AssemblyVersion": "0.2.2.0",
     "Author": "Loskh",
     "Punchline": "FF14 国服游戏内跨大区插件",
     "Description": "在选择角色界面, 右键对应角色, 即可进行超域旅行\n需要使用 XIVLauncherCN 启动游戏, 不支持 WeGame 端",
@@ -213,7 +235,7 @@
     ],
     "RepoUrl": "https://github.com/Dalamud-DailyRoutines/DCTraveler",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DCTravelerX/icon.png",
-    "DownloadLinkInstall": "https://github.com/Dalamud-DailyRoutines/DCTraveler/releases/download/0.2.1.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Dalamud-DailyRoutines/DCTraveler/releases/download/0.2.1.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/Dalamud-DailyRoutines/DCTraveler/releases/download/0.2.2.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Dalamud-DailyRoutines/DCTraveler/releases/download/0.2.2.0/latest.zip"
   }
 ]
