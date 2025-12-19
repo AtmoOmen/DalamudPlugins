@@ -2,7 +2,7 @@
   {
     "Name": "Daily Routines",
     "InternalName": "DailyRoutines",
-    "AssemblyVersion": "1.9.4.4",
+    "AssemblyVersion": "1.9.4.5",
     "TestingAssemblyVersion": "1.9.2.3",
     "Author": "AtmoOmen",
     "Punchline": "帮忙解决一些日常重复性劳动 / Help with some of the daily repetitive tasks",
@@ -20,8 +20,8 @@
     "AcceptsFeedback": true,
     "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DailyRoutines/image/icon.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.4.4/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.4.4/latest.zip",
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.4.5/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.4.5/latest.zip",
     "DownloadLinkTesting": "https://github.com/AtmoOmen/DalamudPlugins/releases/download/DR-1.9.2.3/latest.zip"
   },
   {
@@ -148,7 +148,7 @@
   {
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.6.3.0",
+    "AssemblyVersion": "1.6.4.0",
     "Author": "AtmoOmen",
     "Punchline": "记录你全部的货币收支情况 / Track all your currecies",
     "Description": "记录你每一笔货币收支的数额、时间、地点与来源\nTrack every change of your currecies with its Amount, Time, Location and Source",
@@ -157,8 +157,8 @@
     "DalamudApiLevel": 13,
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1-CP.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.3.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.3.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.4.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.4.0/latest.zip"
   },
   {
     "Name": "VFXEditorCN",
