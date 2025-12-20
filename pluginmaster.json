@@ -71,7 +71,7 @@
   {
     "Name": "Untarnished Heart",
     "InternalName": "UntarnishedHeart",
-    "AssemblyVersion": "0.3.2.0",
+    "AssemblyVersion": "0.3.3.0",
     "Author": "AtmoOmen",
     "Punchline": "自动化 T 职副本场次成就刷取工具",
     "Description": "自动化 T 职副本场次成就刷取工具\n注意: 副本战斗需要自行使用其他插件解决",
@@ -87,8 +87,8 @@
     "AcceptsFeedback": true,
     "IconUrl": "https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
     "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.2.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.2.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.3.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.3.0/latest.zip"
   },
    {
     "Name": "Raphael.Dalamud",
@@ -154,7 +154,7 @@
     "Description": "记录你每一笔货币收支的数额、时间、地点与来源\nTrack every change of your currecies with its Amount, Time, Location and Source",
     "ApplicableVersion": "any",
     "AcceptsFeedback": true,
-    "DalamudApiLevel": 13,
+    "DalamudApiLevel": 14,
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1-CP.png",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.4.0/latest.zip",
