@@ -148,7 +148,7 @@
   {
     "Name": "Currency Tracker",
     "InternalName": "CurrencyTracker",
-    "AssemblyVersion": "1.6.4.1",
+    "AssemblyVersion": "1.6.4.2",
     "Author": "AtmoOmen",
     "Punchline": "记录你全部的货币收支情况 / Track all your currecies",
     "Description": "记录你每一笔货币收支的数额、时间、地点与来源\nTrack every change of your currecies with its Amount, Time, Location and Source",
@@ -157,8 +157,8 @@
     "DalamudApiLevel": 14,
     "RepoUrl": "https://github.com/AtmoOmen/CurrencyTracker",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/CurrencyTracker/master/Assets/img1-CP.png",
-    "DownloadLinkInstall": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.4.1/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.4.1/latest.zip"
+    "DownloadLinkInstall": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.4.2/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/AtmoOmen/CurrencyTracker/releases/download/1.6.4.2/latest.zip"
   },
   {
     "Name": "VFXEditorCN",
