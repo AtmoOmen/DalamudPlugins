@@ -139,7 +139,7 @@
     ],
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
-    "DalamudApiLevel": 13,
+    "DalamudApiLevel": 14,
     "RepoUrl": "https://github.com/AtmoOmen/GatherBuddyReborn",
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/GatherBuddyReborn/releases/download/7.4.0.2/latest.zip",
