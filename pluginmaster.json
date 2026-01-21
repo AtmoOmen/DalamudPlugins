@@ -222,7 +222,7 @@
   {
     "Name": "DCTravelerX",
     "InternalName": "DCTravelerX",
-    "AssemblyVersion": "0.2.5.0",
+    "AssemblyVersion": "0.2.6.0",
     "Author": "Loskh",
     "Punchline": "FF14 国服游戏内跨大区插件",
     "Description": "在选择角色界面, 右键对应角色, 即可进行超域旅行\n需要使用 XIVLauncherCN 启动游戏, 不支持 WeGame 端",
@@ -235,7 +235,7 @@
     ],
     "RepoUrl": "https://github.com/Dalamud-DailyRoutines/DCTraveler",
     "IconUrl": "https://raw.githubusercontent.com/AtmoOmen/StaticAssets/main/DCTravelerX/icon.png",
-    "DownloadLinkInstall": "https://github.com/Dalamud-DailyRoutines/DCTraveler/releases/download/0.2.5.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/Dalamud-DailyRoutines/DCTraveler/releases/download/0.2.5.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/Dalamud-DailyRoutines/DCTraveler/releases/download/0.2.6.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Dalamud-DailyRoutines/DCTraveler/releases/download/0.2.6.0/latest.zip"
   }
 ]
