@@ -1,0 +1,71 @@
+name: 自动更新 pluginmaster
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+  release:
+    types:
+      - published
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-pluginmaster
+  cancel-in-progress: true
+
+env:
+  TARGET_BRANCH: main
+  TARGET_WORKTREE: ../pluginmaster-main
+
+jobs:
+  update-pluginmaster:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 准备 main 分支工作区
+        shell: bash
+        run: |
+          rm -rf "${TARGET_WORKTREE}"
+          rm -f "${RUNNER_TEMP}/pluginmaster-main-before.json"
+
+          git fetch origin "${TARGET_BRANCH}" || true
+
+          if git show "origin/${TARGET_BRANCH}:pluginmaster.json" > "${RUNNER_TEMP}/pluginmaster-main-before.json" 2>/dev/null; then
+            echo "已读取 main 分支当前的 pluginmaster.json"
+          else
+            cp pluginmaster.json "${RUNNER_TEMP}/pluginmaster-main-before.json"
+            echo "main 分支当前不存在 pluginmaster.json，先使用当前分支文件初始化"
+          fi
+
+          git worktree add --detach "${TARGET_WORKTREE}"
+          git -C "${TARGET_WORKTREE}" checkout --orphan "${TARGET_BRANCH}"
+          git -C "${TARGET_WORKTREE}" rm -rf --ignore-unmatch .
+          git -C "${TARGET_WORKTREE}" clean -fdx
+          cp "${RUNNER_TEMP}/pluginmaster-main-before.json" "${TARGET_WORKTREE}/pluginmaster.json"
+
+      - name: 更新 pluginmaster.json
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: ./scripts/Update-PluginMaster.ps1 -PluginMasterPath "${{ github.workspace }}/../pluginmaster-main/pluginmaster.json"
+
+      - name: 提交 main 分支变更
+        shell: bash
+        run: |
+          if cmp -s "${TARGET_WORKTREE}/pluginmaster.json" "${RUNNER_TEMP}/pluginmaster-main-before.json"; then
+            echo "pluginmaster.json 没有变化"
+            exit 0
+          fi
+
+          git -C "${TARGET_WORKTREE}" config user.name "github-actions[bot]"
+          git -C "${TARGET_WORKTREE}" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "${TARGET_WORKTREE}" add pluginmaster.json
+          git -C "${TARGET_WORKTREE}" commit -m "chore: 自动更新 pluginmaster 版本与下载链接"
+          git -C "${TARGET_WORKTREE}" push --force origin "HEAD:${TARGET_BRANCH}"
