@@ -84,7 +84,7 @@
     "DalamudApiLevel": 14,
     "AcceptsFeedback": true,
     "IconUrl": "https://gh.atmoomen.top/StaticAssets/main/UntarnishedHeart/image/icon.png",
-    "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
+    "RepoUrl": "https://github.com/AtmoOmen/UntarnishedHeart",
     "DownloadLinkInstall": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.9.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/AtmoOmen/UntarnishedHeart/releases/download/0.3.9.0/latest.zip"
   },
@@ -103,7 +103,7 @@
     ],
     "DalamudApiLevel": 14,
     "AcceptsFeedback": true,
-    "RepoUrl": "https://github.com/AtmoOmen/DalamudPlugins",
+    "RepoUrl": "https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud",
     "DownloadLinkInstall": "https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.6.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/Dalamud-DailyRoutines/Raphael.Dalamud/releases/download/0.0.6.0/latest.zip"
   },
