@@ -1,9 +1,3 @@
 {
-  "plugins": [
-    {
-      "internalName": "DailyRoutines",
-      "sourceRepo": "AtmoOmen/DalamudPlugins",
-      "tagPrefix": "DR"
-    }
-  ]
+  "plugins": []
 }
