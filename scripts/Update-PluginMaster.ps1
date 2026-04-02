@@ -18,6 +18,84 @@ if (-not [string]::IsNullOrWhiteSpace($env:GITHUB_TOKEN)) {
 
 $script:ReleaseCache = @{}
 
+function Get-ReadablePath {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Path,
+
+        [Parameter(Mandatory)]
+        [string]$Description
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Path)) {
+        throw "$Description 路径不能为空"
+    }
+
+    try {
+        return [string](Resolve-Path -LiteralPath $Path)
+    }
+    catch {
+        throw "$Description 不存在: $Path"
+    }
+}
+
+function Get-ObjectPropertyValue {
+    param(
+        [Parameter(Mandatory)]
+        [AllowNull()]
+        [object]$InputObject,
+
+        [Parameter(Mandatory)]
+        [string]$PropertyName
+    )
+
+    if ($null -eq $InputObject) {
+        return $null
+    }
+
+    if ($InputObject -is [System.Collections.IDictionary]) {
+        if ($InputObject.Contains($PropertyName)) {
+            return $InputObject[$PropertyName]
+        }
+
+        return $null
+    }
+
+    $property = $InputObject.PSObject.Properties[$PropertyName]
+    if ($null -eq $property) {
+        return $null
+    }
+
+    return $property.Value
+}
+
+function Read-JsonFile {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Path,
+
+        [Parameter(Mandatory)]
+        [string]$Description
+    )
+
+    $resolvedPath = Get-ReadablePath -Path $Path -Description $Description
+    $rawContent = Get-Content -Raw -Encoding utf8 -LiteralPath $resolvedPath
+    if ([string]::IsNullOrWhiteSpace($rawContent)) {
+        throw "$Description 内容为空: $resolvedPath"
+    }
+
+    try {
+        return @{
+            Path       = $resolvedPath
+            RawContent = $rawContent
+            Json       = $rawContent | ConvertFrom-Json
+        }
+    }
+    catch {
+        throw "$Description 不是合法的 JSON: $resolvedPath。$($_.Exception.Message)"
+    }
+}
+
 function Normalize-Version {
     param(
         [Parameter(Mandatory)]
@@ -61,19 +139,31 @@ function Get-RepoSlugFromUrl {
 
 function Get-RuleLookup {
     param(
-        [Parameter(Mandatory)]
+        [AllowNull()]
         [array]$Rules
     )
 
     $lookup = @{}
-    foreach ($rule in $Rules) {
-        $internalName = [string]$rule.internalName
+    if ($null -eq $Rules) {
+        return $lookup
+    }
+
+    for ($index = 0; $index -lt $Rules.Count; $index++) {
+        $rule = $Rules[$index]
+        if ($null -eq $rule) {
+            Write-Warning "已跳过空规则，索引为 $index"
+            continue
+        }
+
+        $internalName = [string](Get-ObjectPropertyValue -InputObject $rule -PropertyName "internalName")
         if ([string]::IsNullOrWhiteSpace($internalName)) {
-            throw "规则里存在空的 internalName"
+            Write-Warning "已跳过缺少 internalName 的规则，索引为 $index"
+            continue
         }
 
         if ($lookup.ContainsKey($internalName)) {
-            throw "存在重复的规则 internalName: $internalName"
+            Write-Warning "已跳过重复规则 internalName: $internalName"
+            continue
         }
 
         $lookup[$internalName] = $rule
@@ -160,18 +250,38 @@ function Get-LatestReleaseInfo {
 function Get-SelectedPluginIndexes {
     param(
         [Parameter(Mandatory)]
+        [AllowEmptyCollection()]
         [array]$Plugins
     )
 
     $selected = @{}
     for ($index = 0; $index -lt $Plugins.Count; $index++) {
         $plugin = $Plugins[$index]
-        $internalName = [string]$plugin.InternalName
-        if ([string]::IsNullOrWhiteSpace($internalName)) {
-            throw "索引 $index 的插件缺少 InternalName"
+        if ($null -eq $plugin) {
+            Write-Warning "已跳过空插件对象，索引为 $index"
+            continue
         }
 
-        $versionObject = ConvertTo-VersionObject -VersionText ([string]$plugin.AssemblyVersion)
+        $internalName = [string](Get-ObjectPropertyValue -InputObject $plugin -PropertyName "InternalName")
+        if ([string]::IsNullOrWhiteSpace($internalName)) {
+            Write-Warning "已跳过缺少 InternalName 的插件，索引为 $index"
+            continue
+        }
+
+        $assemblyVersion = [string](Get-ObjectPropertyValue -InputObject $plugin -PropertyName "AssemblyVersion")
+        if ([string]::IsNullOrWhiteSpace($assemblyVersion)) {
+            Write-Warning "已跳过缺少 AssemblyVersion 的插件 $internalName"
+            continue
+        }
+
+        try {
+            $versionObject = ConvertTo-VersionObject -VersionText $assemblyVersion
+        }
+        catch {
+            Write-Warning "已跳过版本号无效的插件 ${internalName}: $assemblyVersion"
+            continue
+        }
+
         if (-not $selected.ContainsKey($internalName) -or $versionObject -gt $selected[$internalName].Version) {
             $selected[$internalName] = @{
                 Index   = $index
@@ -252,78 +362,97 @@ function Update-PluginBlock {
     return $Content.Substring(0, $blockMatch.Index) + $updatedBlock + $Content.Substring($blockMatch.Index + $blockMatch.Length)
 }
 
-$pluginMasterContent = Get-Content -Raw -Encoding utf8 $PluginMasterPath
-$pluginMaster = $pluginMasterContent | ConvertFrom-Json
-$config = Get-Content -Raw -Encoding utf8 $ConfigPath | ConvertFrom-Json
-$ruleLookup = Get-RuleLookup -Rules @($config.plugins)
+$pluginMasterFile = Read-JsonFile -Path $PluginMasterPath -Description "pluginmaster.json"
+$pluginMasterPath = $pluginMasterFile.Path
+$pluginMasterContent = $pluginMasterFile.RawContent
+$pluginMaster = @($pluginMasterFile.Json)
+
+$configFile = Read-JsonFile -Path $ConfigPath -Description "规则配置"
+$config = $configFile.Json
+$configPlugins = @(Get-ObjectPropertyValue -InputObject $config -PropertyName "plugins")
+$ruleLookup = Get-RuleLookup -Rules $configPlugins
 $selectedIndexes = Get-SelectedPluginIndexes -Plugins $pluginMaster
 
 $updatedCount = 0
+$skippedCount = 0
 $selectedItems = $selectedIndexes.GetEnumerator() | Sort-Object Key
 $pendingUpdates = @()
 
 foreach ($item in $selectedItems) {
-    $pluginIndex = [int]$item.Value.Index
-    $plugin = $pluginMaster[$pluginIndex]
-    $internalName = [string]$plugin.InternalName
+    try {
+        $pluginIndex = [int]$item.Value.Index
+        $plugin = $pluginMaster[$pluginIndex]
+        $internalName = [string](Get-ObjectPropertyValue -InputObject $plugin -PropertyName "InternalName")
 
-    $rule = $null
-    if ($ruleLookup.ContainsKey($internalName)) {
-        $rule = $ruleLookup[$internalName]
-    }
-
-    $repoSlug = Get-RepoSlugFromUrl -RepoUrl ([string]$plugin.RepoUrl)
-    $tagPrefix = $null
-    if ($null -ne $rule) {
-        if (-not [string]::IsNullOrWhiteSpace([string]$rule.sourceRepo)) {
-            $repoSlug = [string]$rule.sourceRepo
+        $rule = $null
+        if ($ruleLookup.ContainsKey($internalName)) {
+            $rule = $ruleLookup[$internalName]
         }
 
-        if (-not [string]::IsNullOrWhiteSpace([string]$rule.tagPrefix)) {
-            $tagPrefix = [string]$rule.tagPrefix
+        $repoUrl = [string](Get-ObjectPropertyValue -InputObject $plugin -PropertyName "RepoUrl")
+        $repoSlug = Get-RepoSlugFromUrl -RepoUrl $repoUrl
+        $tagPrefix = $null
+        if ($null -ne $rule) {
+            $sourceRepo = [string](Get-ObjectPropertyValue -InputObject $rule -PropertyName "sourceRepo")
+            if (-not [string]::IsNullOrWhiteSpace($sourceRepo)) {
+                $repoSlug = $sourceRepo.Trim()
+            }
+
+            $configuredTagPrefix = [string](Get-ObjectPropertyValue -InputObject $rule -PropertyName "tagPrefix")
+            if (-not [string]::IsNullOrWhiteSpace($configuredTagPrefix)) {
+                $tagPrefix = $configuredTagPrefix.Trim()
+            }
+        }
+
+        $latestRelease = Get-LatestReleaseInfo -RepoSlug $repoSlug -TagPrefix $tagPrefix
+        $downloadUrl = Get-DownloadUrl -RepoSlug $repoSlug -TagName $latestRelease.TagName
+
+        $beforeVersion = [string](Get-ObjectPropertyValue -InputObject $plugin -PropertyName "AssemblyVersion")
+        $beforeInstall = [string](Get-ObjectPropertyValue -InputObject $plugin -PropertyName "DownloadLinkInstall")
+        $beforeUpdate = [string](Get-ObjectPropertyValue -InputObject $plugin -PropertyName "DownloadLinkUpdate")
+
+        $plugin.AssemblyVersion = $latestRelease.AssemblyVersion
+        $plugin.DownloadLinkInstall = $downloadUrl
+        $plugin.DownloadLinkUpdate = $downloadUrl
+
+        $hasChanged = $false
+        if ($beforeVersion -ne [string]$plugin.AssemblyVersion) {
+            $hasChanged = $true
+        }
+
+        if ($beforeInstall -ne [string]$plugin.DownloadLinkInstall) {
+            $hasChanged = $true
+        }
+
+        if ($beforeUpdate -ne [string]$plugin.DownloadLinkUpdate) {
+            $hasChanged = $true
+        }
+
+        if ($hasChanged) {
+            $updatedCount++
+            $pendingUpdates += [pscustomobject]@{
+                InternalName           = $internalName
+                CurrentAssemblyVersion = $beforeVersion
+                NewAssemblyVersion     = [string]$plugin.AssemblyVersion
+                DownloadUrl            = $downloadUrl
+            }
+            Write-Host "已更新 $internalName -> 版本 $($plugin.AssemblyVersion)，Tag 为 $($latestRelease.TagName)"
+        }
+        else {
+            Write-Host "$internalName 已是最新状态"
         }
     }
-
-    $latestRelease = Get-LatestReleaseInfo -RepoSlug $repoSlug -TagPrefix $tagPrefix
-    $downloadUrl = Get-DownloadUrl -RepoSlug $repoSlug -TagName $latestRelease.TagName
-
-    $beforeVersion = [string]$plugin.AssemblyVersion
-    $beforeInstall = [string]$plugin.DownloadLinkInstall
-    $beforeUpdate = [string]$plugin.DownloadLinkUpdate
-
-    $plugin.AssemblyVersion = $latestRelease.AssemblyVersion
-    $plugin.DownloadLinkInstall = $downloadUrl
-    $plugin.DownloadLinkUpdate = $downloadUrl
-
-    $hasChanged = $false
-    if ($beforeVersion -ne [string]$plugin.AssemblyVersion) {
-        $hasChanged = $true
-    }
-
-    if ($beforeInstall -ne [string]$plugin.DownloadLinkInstall) {
-        $hasChanged = $true
-    }
-
-    if ($beforeUpdate -ne [string]$plugin.DownloadLinkUpdate) {
-        $hasChanged = $true
-    }
-
-    if ($hasChanged) {
-        $updatedCount++
-        $pendingUpdates += [pscustomobject]@{
-            InternalName           = $internalName
-            CurrentAssemblyVersion = $beforeVersion
-            NewAssemblyVersion     = [string]$plugin.AssemblyVersion
-            DownloadUrl            = $downloadUrl
-        }
-        Write-Host "已更新 $internalName -> 版本 $($plugin.AssemblyVersion)，Tag 为 $($latestRelease.TagName)"
-    }
-    else {
-        Write-Host "$internalName 已是最新状态"
+    catch {
+        $skippedCount++
+        Write-Warning "已跳过插件 $($item.Key): $($_.Exception.Message)"
     }
 }
 
 if ($updatedCount -eq 0) {
+    if ($skippedCount -gt 0) {
+        Write-Warning "本次有 $skippedCount 个插件被跳过"
+    }
+
     Write-Host "pluginmaster.json 无需更新"
     exit 0
 }
@@ -340,4 +469,8 @@ foreach ($pendingUpdate in $pendingUpdates) {
 
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText((Resolve-Path $PluginMasterPath), $updatedContent, $utf8NoBom)
+if ($skippedCount -gt 0) {
+    Write-Warning "本次有 $skippedCount 个插件被跳过"
+}
+
 Write-Host "pluginmaster.json 已写回，共更新 $updatedCount 个插件条目"
