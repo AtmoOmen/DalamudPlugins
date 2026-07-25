@@ -28,6 +28,7 @@ https://raw.githubusercontent.com/AtmoOmen/DalamudPlugins/main/pluginmaster.json
 |----------|----------|----------|----------|----------|
 | [Daily Routines](https://github.com/Dalamud-DailyRoutines) | [AtmoOmen](https://github.com/AtmoOmen) | 7.5 | 一些自动化小工具合集 | **个人编写** |
 | [Untarnished Heart](https://github.com/AtmoOmen/UntarnishedHeart) | [AtmoOmen](https://github.com/AtmoOmen) | 7.5 | 自动化 T 职副本场次成就刷取工具 | **个人编写** |
+| [EdgeTTS.Dalamud](https://github.com/AtmoOmen/EdgeTTS.Dalamud) | [AtmoOmen](https://github.com/AtmoOmen) | 7.5 | 自然语言合成文本转语音 | **个人编写** |
 | [vnavmesh](https://github.com/AtmoOmen/ffxiv_navmesh-cn) | [veyn](https://github.com/awgil) | 7.5 | 自动寻路 | 适配国服, 部分汉化 |
 | [GatherBuddyReborn](https://github.com/AtmoOmen/GatherBuddyReborn) | [Ottermandias](https://github.com/Ottermandias)， [CombatReborn](https://github.com/FFXIV-CombatReborn) | 7.5 | Gather Buddy 自动采集版 | 适配国服, 部分汉化 |
 | [VFXEditorCN](https://github.com/AtmoOmen/VFXEditor-CN) | [ocealot](https://github.com/0ceal0t) | 7.5 | 游戏内视觉效果、动画与音频编辑插件 | 适配国服, 基本完全汉化 |
